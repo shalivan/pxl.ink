@@ -5,6 +5,7 @@ categories:
 tags:
   - Science
   - Cognition
+  - Psychology
 description: Individual, Collective
 permalink: /personality/
 aliases:

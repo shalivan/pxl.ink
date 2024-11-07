@@ -9,6 +9,9 @@ tags:
 
 permalink: /circuit/
 ---
+> Pxlink: 
+>Obsidian:   [[04-01-01-Music | Music]] [[01-01-01-Keystep | Keystep]] [[01-01-01-Reface | Reface]] [[03-01-01-Synthesizers | Synthesizers]] [[01-01-01-Ableton | Ableton]]
+
 
 https://github.com/martin-stone/ctpatch
 
@@ -42,11 +45,13 @@ to describe these patterns to Novation’s Technical Support Team in the event o
 
 
 
-| <img src="/src/music/scales/patterns/NaturlMinor.png" width="200">| <img src="/src/music/scales/patterns/Major.png" width="200">| <img src="/src/music/scales/patterns/Dorian.png" width="200"> |  <img src="/src/music/scales/patterns/Phrygian.png" width="200">  | <img src="/src/music/scales/patterns/Mixolyduan.png" width="200"> |<img src="/src/music/scales/patterns/MelodicMinor.png" width="200">     |<img src="/src/music/scales/patterns/HarmonicMinor.png" width="200">    |<img src="/src/music/scales/patterns/BebopDorian.png" width="200">|
-|---|---|---|---|---|---|---|---|
-|**17** Natural Minor |**18** Major |**19** Dorian |**20** Phrygian |**21** Mixolyduan  | **22** Melodic Minor| **23**  Harmonic Minor | **24** Bebop Dorian |
-|   |<img src="/src/music/scales/patterns/MinorPenatotonic.png" width="200">  |<img src="/src/music/scales/patterns/HungarianMinor.png" width="200">|<img src="/src/music/scales/patterns/UkraninianDorian.png" width="200">  | <img src="/src/music/scales/patterns/Marva.png" width="200"> ||  <img src="/src/music/scales/patterns/WholeTone.png" width="200"> |
-|**25**   Blues  (6)| **26**  Minor Penatotonic  (6)| **27** Hungarian Minor | **28** Ukraninian Dorian| **29**  Marva|**30**  Todi |**31** Whole Tone  (6) |**32**  Chromatic (12 keys)
+
+
+| ![](/src/music/scales/patterns/NaturlMinor.png) | ![](/src/music/scales/patterns/Major.png)            | ![](/src/music/scales/patterns/Dorian.png)         | ![](/src/music/scales/patterns/Phrygian.png)         | ![](/src/music/scales/patterns/Mixolyduan.png) | ![](/src/music/scales/patterns/MelodicMinor.png) | ![](/src/music/scales/patterns/HarmonicMinor.png) | ![](/src/music/scales/patterns/BebopDorian.png) |
+| ----------------------------------------------- | ---------------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------- | ------------------------------------------------ | ------------------------------------------------- | ----------------------------------------------- |
+| **17** Natural Minor                            | **18** Major                                         | **19** Dorian                                      | **20** Phrygian                                      | **21** Mixolyduan                              | **22** Melodic Minor                             | **23**  Harmonic Minor                            | **24** Bebop Dorian                             |
+|                                                 | ![](/src/music/scales/patterns/MinorPenatotonic.png) | ![](/src/music/scales/patterns/HungarianMinor.png) | ![](/src/music/scales/patterns/UkraninianDorian.png) | ![](/src/music/scales/patterns/Marva.png)      |                                                  | ![](/src/music/scales/patterns/WholeTone.png)     |                                                 |
+| **25**   Blues  (6)                             | **26**  Minor Penatotonic  (6)                       | **27** Hungarian Minor                             | **28** Ukraninian Dorian                             | **29**  Marva                                  | **30**  Todi                                     | **31** Whole Tone  (6)                            | **32**  Chromatic (12 keys)                     |
 
 
 ### Pattern Settings & Probability
@@ -328,16 +333,16 @@ Depth, jak duzo zmiany i w ktora strone
 
 #### Macro for synths
 
-||Tracks|Rhythm| Track Drums|
-|-|-|-|-|
-1 | Oscillator |  Tune | Static pitch
-2 |  Oscillator Mod |  Start |
-3 | Amp Envelope |  Length | Decay envelope time
-4 | Filter Envelope | Slope |
-5 |  Filter Frequency  | Distortion | Distortion
-6 | Resonance | HP | -
-7 | Modulation | LP |  Filter
-8 | FX| Resonance | -
+|     | Tracks           | Rhythm     | Track Drums         |
+| --- | ---------------- | ---------- | ------------------- |
+| 1   | Oscillator       | Tune       | Static pitch        |
+| 2   | Oscillator Mod   | Start      |                     |
+| 3   | Amp Envelope     | Length     | Decay envelope time |
+| 4   | Filter Envelope  | Slope      |                     |
+| 5   | Filter Frequency | Distortion | Distortion          |
+| 6   | Resonance        | HP         | -                   |
+| 7   | Modulation       | LP         | Filter              |
+| 8   | FX               | Resonance  | -                   |
 
 
 ---

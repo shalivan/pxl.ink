@@ -2,13 +2,13 @@
 title: Curves equations
 description: Drawing fn.
 categories:
- - VEX
-
+  - VEX
 tags:
-- VEX
-- Art
-- Math
-- Procedural
+  - VEX
+  - Art
+  - Math
+  - Procedural
+  - Houdini
 permalink: /curve/
 ---
 ### Line

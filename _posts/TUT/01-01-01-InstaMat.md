@@ -22,15 +22,14 @@ permalink: /instamat/
 - **fn graph** - smaller than atom
 
 
-# UI 
 
-On left 
-- Library 
-- Package 
-- Settings 
-- Render 
-Right 
-- nodes options
+# Methodology 
+
+Packages
+Project
+
+
+# UI 
 
 
 Center stage 

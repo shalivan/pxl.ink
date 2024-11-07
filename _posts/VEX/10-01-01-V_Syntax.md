@@ -2,10 +2,11 @@
 title: VEX
 description: Syntax
 categories:
- - VEX
+  - VEX
 tags:
-- VEX
-- Code
+  - VEX
+  - Code
+  - Houdini
 permalink: /vex/
 ---
 > Obsidian:  [[08-01-01-V_Expressions]]  [[09-01-01-V_Attribs]]  [[07-01-01-V_Strings]] [[05-01-01-V_Orientation]] [[03-01-01-V_Measure]] [[03-_V_Curves]]

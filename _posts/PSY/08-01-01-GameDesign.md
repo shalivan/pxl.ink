@@ -8,6 +8,7 @@ tags:
   - Gameplay
   - GameDev
   - Narration
+  - Psychology
 permalink: /gamedesign/
 aliases:
   - gamedesign

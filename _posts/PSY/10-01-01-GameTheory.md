@@ -9,6 +9,7 @@ tags:
   - Gameplay
   - Math
   - GameDev
+  - Psychology
 permalink: /gametheory/
 aliases:
   - gametheory

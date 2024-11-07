@@ -9,6 +9,7 @@ tags:
   - Cognition
   - GameDev
   - Narration
+  - Psychology
 permalink: /narratology/
 aliases:
   - narratology
@@ -27,6 +28,8 @@ Stories emerge from our consciousness and observing ourselves and understand wha
 Film is based on empathy.
 Stories round campfire > myths > printing press: linearize > Post linear: World building
 
+### Hauntology 
+Dereda.  (hount + ontology -study beeing )Our experience is connected with past and future and only then make sense 
 
 # Genres
 

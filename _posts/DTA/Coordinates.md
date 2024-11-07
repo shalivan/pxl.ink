@@ -29,12 +29,12 @@ TILES:
 
 
 #### Polar Coordinates
-2d. where x, y >> angle, radius  
-
+2d. where x, y >>radius,  angle
+ - x - axis (0-1) = angle (0-360)
 Polar (r,θ) to Cartesian (x,y):
 ```
-x = r × cos( θ )
-y = r × sin( θ )
+x = r * cos( θ )
+y = r * sin( θ )
 ```
 
 Cartesian (x,y) to Polar(r,θ):
@@ -42,6 +42,8 @@ Cartesian (x,y) to Polar(r,θ):
 r = √ ( x2 + y2 )
 θ = tan-1 ( y / x )
 ```
+
+3d (radius, polasr angle, azimuth angle)
 
 #### Barycentric coordinates
 is specified as the center of mass, or barycenter,

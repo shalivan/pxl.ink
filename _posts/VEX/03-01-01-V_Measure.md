@@ -2,10 +2,11 @@
 title: VEX  Measurement
 description: Measure, Point clouds
 categories:
- - VEX
+  - VEX
 tags:
-- VEX
-- Code
+  - VEX
+  - Code
+  - Houdini
 permalink: /pc/
 ---
 

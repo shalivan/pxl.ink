@@ -9,15 +9,13 @@ tags:
 
 permalink: /keystep/
 ---
-
-[Music](/music/)  
-[Synth](/synth/)  
+> Pxlink: 
+>Obsidian:   [[04-01-01-Music | Music]] [[01-01-01-Circuit | Circuit]]  [[01-01-01-Reface | Reface]] [[03-01-01-Synthesizers | Synthesizers]] [[01-01-01-Ableton | Ableton]]
 
 
 https://youtu.be/klwzae3YE6Y?t=332 - program  for circuit   
 
 
-<img src="/src/music/ks.png" width="700">
 
 ![](/src/music/ks.png)
 

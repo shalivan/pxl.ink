@@ -6,12 +6,16 @@ tags:
   - Science
   - Cognition
   - Gameplay
+  - Psychology
 description: States, Imagination, Memory, Biases , Choice, Emotions
 permalink: /cognition/
 aliases:
   - cognition
 ---
 
+#psy 
+
+PSY
 
 
 

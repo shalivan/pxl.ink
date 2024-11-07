@@ -19,7 +19,8 @@ permalink: /animation/
 
 https://youtu.be/6TB62YKHwRQ
 # Frame rate
-typically 24-60 FPS
+typically 24-
+60 FPS - 
 
 # Principles of animation
 

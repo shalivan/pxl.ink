@@ -10,8 +10,8 @@ tags:
 
 permalink: /synth/
 ---
-
-[Music](/music/)  
+> Pxlink: 
+>Obsidian:   [[04-01-01-Music | Music]] [[01-01-01-Circuit | Circuit]] [[01-01-01-Keystep | Keystep]] [[01-01-01-Reface | Reface]] [[01-01-01-Ableton | Ableton]]
 
 
 
@@ -48,12 +48,12 @@ Create sound in oscillator: Smooth shape, smooth tone , hard; hard tone
 
 |-|-|-|-|
 |-|-|-|-|
-Sin | Simple | Muted Warm Hollow Bassy |Flute Organ
-Triangle| Simple few overtones  (not as full as square) | Pure, Dull | Chime, Organ
-Saw wave | Complex excitements and bright at hi end in upper range. |  Full Harsh Bright | string
-Square | Complex harmonics, full sound  Can be shape no other can| Hollow Harsh Brass ruddy | Horn
-Square Pulse | Square with variation in timing
-Noise | very Complex many overtones. Hard Cutting  |Asymmetric | Noise
+|Sin | Simple | Muted Warm Hollow Bassy |Flute Organ
+|Triangle| Simple few overtones  (not as full as square) | Pure, Dull | Chime, Organ
+|Saw wave | Complex excitements and bright at hi end in upper range. |  Full Harsh Bright | string
+|Square | Complex harmonics, full sound  Can be shape no other can| Hollow Harsh Brass ruddy | Horn
+|Square Pulse | Square with variation in timing
+|Noise | very Complex many overtones. Hard Cutting  |Asymmetric | Noise
 
 
 
@@ -77,18 +77,19 @@ Shape sound and character of waveform
 - open, close
 - resonance
 
- |-|-|-|-|
- |-|-|-|-|
-Lowpass |  Cut off Highend frequencies  | (traditional ?) duller
-Highpass | Cut off Lowend frequencies  | (more esoteric ? )
-Bandpass | Low + High  
-Resonance | Peak before high cut. Add sharpness. | Laser zaps, Focused sounds  
-Sweep | Move resonance center   
-Key track | Low same but higher notes have higher filter (more open) frequencies / high-end on high notes  
-Envelope | ie: Open and Close filter over time  
-Cutoff frequency | Take out of focus  
-Drive |   
-Env2 Mode  |  how much filter env modulate filter frequencies
+|     | -   | -   | -   | -   |
+| --- | --- | --- | --- | --- |
+|     |     |     |     |     |
+|Lowpass |  Cut off Highend frequencies  | (traditional ?) duller
+|Highpass | Cut off Lowend frequencies  | (more esoteric ? )
+|Bandpass | Low + High  
+|Resonance | Peak before high cut. Add sharpness. | Laser zaps, Focused sounds  
+|Sweep | Move resonance center   
+|Key track | Low same but higher notes have higher filter (more open) frequencies / high-end on high notes  
+|Envelope | ie: Open and Close filter over time  
+|Cutoff frequency | Take out of focus  
+|Drive |   
+|Env2 Mode  |  how much filter env modulate filter frequencies
 
 -  if you low pass filter saw wave you will get sth like sin  
 
@@ -101,10 +102,10 @@ How fast turn on and down. Determine how much envelop impacts settings. U can mo
 
 |-|how long it takes for the envelope to  |-|immediate| long|
 |---|---|---|---|---|
-Attack | reach its peak at the start of a note | Hit and Hold  |  drums  | wind
-Decay | decrease from its peak to the sustain level  | Hold | sharp change
-Sustain | Rest state | Hold Rest state|
-Release | decrease to its minimum level after the note is released | Immediately after release |
+|Attack | reach its peak at the start of a note | Hit and Hold  |  drums  | wind
+|Decay | decrease from its peak to the sustain level  | Hold | sharp change
+|Sustain | Rest state | Hold Rest state|
+|Release | decrease to its minimum level after the note is released | Immediately after release |
 
 ---
 

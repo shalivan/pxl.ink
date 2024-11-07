@@ -224,6 +224,12 @@ LEGACY :
 
 There are 11 blend modes that decals can use:
 
+
+## DBuffer decals. 
+You can access this buffer in other materials. 
+- set **decal response** in material. (what is not set need to be blended with DBuffer texture inside of material)
+- 
+
 The DBuffer decals can be used with lighting. These are not on by default and must be enabled in the Project Settings > Rendering section.
 
 |  |  |

@@ -9,6 +9,7 @@ tags:
   - Cognition
   - GameDev
   - Narration
+  - Psychology
 permalink: /ludology/
 aliases:
   - ludology

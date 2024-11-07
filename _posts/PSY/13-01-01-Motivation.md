@@ -6,6 +6,7 @@ tags:
   - Science
   - Cognition
   - Gameplay
+  - Psychology
 description: Biological , Personal , Social, Satisfaction
 permalink: /motivation/
 aliases:

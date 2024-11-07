@@ -13,6 +13,20 @@ aliases:
 ---
 >  [[17-01-01-Modeling_Foliage]]  [[16-01-01-Sculpting]] [[21-01-01-Art]]
 
+
+
+```
+##### read verticles uv
+veets on Smooth edges, no uvs = 100% vertex  
+`hard edges` - make new vert count
+`uv` - also contribute.
+hard edges should be where uvs - (ver count)
+`vertex color` - to memory cost but not vertex cost.
+'rendering passes' - (occl, shadow depths, shadow projection)
+```
+
+
+
 ------------
 quads - only for anim and subdiv (also better uvs).
 for games - preserve shiluete

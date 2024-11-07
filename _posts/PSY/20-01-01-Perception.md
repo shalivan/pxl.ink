@@ -7,6 +7,7 @@ tags:
   - Design
   - Cognition
   - Gameplay
+  - Psychology
 description: Gestalt
 permalink: /perception/
 aliases:

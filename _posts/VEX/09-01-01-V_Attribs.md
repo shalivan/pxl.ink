@@ -2,10 +2,11 @@
 title: VEX Attributes
 description: attributes, Groups, Casts
 categories:
- - VEX
+  - VEX
 tags:
-- VEX
-- Code
+  - VEX
+  - Code
+  - Houdini
 permalink: /attribs/
 ---
 > Obsidian:  [[08-01-01-V_Expressions]]  [[10-01-01-V_Syntax]] [[07-01-01-V_Strings]] [[05-01-01-V_Orientation]] [[03-01-01-V_Measure]] [[03-_V_Curves]]

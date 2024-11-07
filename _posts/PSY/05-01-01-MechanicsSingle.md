@@ -24,7 +24,18 @@ crafting !!!
 - purpose of things 
 	- -
 
+CASINO 
 
+- oportunity  - get sth of valu
+- unpredictable rewards - you have no ida when 
+- quick repetibility - 
+
+
+variable reinfocement loop 
+- near misses 
+- losses disguises wins - whenn you win  less than you put but it can be stil thought as a win. 
+
+--------
 
 
 

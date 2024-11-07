@@ -5,6 +5,7 @@ categories:
 tags:
   - CG
   - zBrush
+  - Art
 description: Paradigm
 permalink: /sculpting/
 aliases:

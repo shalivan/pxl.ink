@@ -1,13 +1,12 @@
 ---
 title: Consciousness
-
 categories:
- - PSY
+  - PSY
 tags:
-- Science
-- Cognition
-- Gameplay
-
+  - Science
+  - Cognition
+  - Gameplay
+  - Psychology
 description: attention, cognition motivation, emotion, choice, satisfaction
 permalink: /cognition/
 ---
