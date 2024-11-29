@@ -14,20 +14,48 @@ aliases:
 > Pxlink: [Composition]  [Color](/color/)  [Modeling](/modeling/)  [Sculpting](/sculpting/) 
  >Obsidian: [[21-01-01-Art]]   [[17-01-01-SpeedTree]]  [[17-01-01-Modeling]], [[17-01-01-Modeling_Foliage]]  [[18-01-01-Color]] [[16-01-01-Sculpting]] [[14-01-01-Procedural]] [[08-01-01-Material]]  [[20-01-01-VisualDesign]] [[17-01-01-Paint]]  [[14-01-01-Procedural]]  [[12-01-01-LevelDesign]] 
 
-https://www.exp-points.com/sven-mren-foliage-study <
-https://www.textures.com/tutorials/Creating%20Realistic%203D%20Plant:%20Shaping%20The%20Leaves
+Houdini rocks
+https://youtu.be/2kDSsbrFEKw
+Water Single Layer 
+https://www.artstation.com/blogs/rovana_c/poGo/water-shader-single-layer-material
+Map 
+https://www.youtube.com/watch?v=sZWD9bud-gk
+https://www.youtube.com/watch?v=uQNND6ShfqQ
+https://www.youtube.com/watch?v=eueGP4SIgGo
+https://youtu.be/onTfg05yeyw                                   
 
-[YT Houdini # Speedier Trees in Houdini: Botanically inspired production ](https://www.youtube.com/watch?v=e8ITnlrcvcQ&t=1709s)
-https://www.textures.com/tutorials/Creating%20Realistic%203D%20Plant:%20Shaping%20The%20Leaves
+Modeling
+- [Modeling high plands](https://www.exp-points.com/sven-mren-foliage-study)
+- [TexturesCom tut](https://www.textures.com/tutorials/double-sided-leaves-modelling)
+- [YT Houdini # Speedier Trees in Houdini: Botanically inspired production ](https://www.youtube.com/watch?v=e8ITnlrcvcQ&t=1709s)
+- https://www.youtube.com/watch?v=P7lZ-D-Fkus&list=PL-169OEn7ZLXkprHiKwS6rOW_UrJCAvxO
+-  https://www.artstation.com/artwork/qQVZqR
+Wind
+- [Ghinish technique playlist 1 wind & 2 grass](https://www.youtube.com/watch?v=P7lZ-D-Fkus&list=PL-169OEn7ZLXkprHiKwS6rOW_UrJCAvxO)
+- [pt 3 using blender](https://youtu.be/BFnwkBv19TA)
+- [RT flowmap dynamic grass](https://www.raywenderlich.com/6314-creating-interactive-grass-in-unreal-engine-4)
+- https://youtu.be/MKX45_riWQA  Interactive Wind and Vegetation in 'God of War'
+
+FOLIAGE: 
+Set custom foliage data 
+repleace with skeletal
+https://youtu.be/JvX-BRmqlr8?t=921
+https://www.youtube.com/watch?v=vXalfRAnXak&list=PLVCUepYV6TvPYbofpEf_ghznfihM-yt-B
 
 
-# Vegetation
+
+# Vegetation animation
+
+
+# Vegetation modeling
 
 ## Technical pipeline
 
 We need parts which we will combine into objects. then objects will be used in composition.
 
 #### **References**    
+
+  - References: [FoliageLibrary](https://treelib.ca/)    
   - **Silhouettes** 
 	  - different sizes and shapes  (grass, plants, bush , tree)  
 	  - negative spaces 
@@ -43,7 +71,6 @@ We need parts which we will combine into objects. then objects will be used in c
   - where plants growth - in garden are clean
   - sizes: small mid …
   - natural shapes:  thickness constraint by Leonard DaVinci: - at any point parent branch needs to have combined thickness of all the tow branches. 
-
 
 #### **Modeling**    
 Methods for foliage production: 
@@ -145,7 +172,7 @@ sposob 2 :
 
 
 #### Grass
-grass - https://www.artstation.com/artwork/qQVZqR
+
 
 #### Fungi
 
@@ -158,9 +185,20 @@ grass - https://www.artstation.com/artwork/qQVZqR
 'Lot more porous, with amassive amount of self-shadowing, ambient occlusion, and transmitted light. The moss itself tends to have a lighter color at the tips than deeper towards the base. And there’s a strong viewing angle dependency – when viewed straight on, you can see down into the shadows between the fibers, and while viewed from an angle, only the tips are visible.'
 
 
+
+
+
+
+
+
+
+
+
+
 ---
 
 # Tools
+
 Available tools for foliage creation: 2023
 - SpeedTree https://www.youtube.com/c/SpeedTreeMiddleware
 - H GrowInfinite 1.2.19  https://fxmode.gumroad.com/l/GrowInfinite  
@@ -187,10 +225,6 @@ Available tools for foliage creation: 2023
 ---
 
 
-https://youtu.be/pVKDfZMffpc
-[YT kanał H](https://www.youtube.com/c/RickBanks/videos)
-[Tut dynamic grass](https://www.raywenderlich.com/6314-creating-interactive-grass-in-unreal-engine-4)
-[FoliageLibrary](https://treelib.ca/)    
 Bruno Moulia
 
 > Book history : natural design of nature - computer generated plants and organics Oliver Deussen, Bernd Lintermann
