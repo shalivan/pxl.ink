@@ -26,7 +26,7 @@ https://drive.google.com/file/d/1I4dglPjeXLcNkSGxGok8sQCy59qgYcF9/edit
 - enable "UV from Hit" engine feature
 
 ### Project Basics
-- Ninja folows points, socets, bones - not shapes 
+- Ninja follows points, sockets, bones - not shapes 
 - can corelate materials with tags
 
 
@@ -35,28 +35,21 @@ https://drive.google.com/file/d/1I4dglPjeXLcNkSGxGok8sQCy59qgYcF9/edit
 
 # Effect Types
 
-
-
-
 ## Aera FX
 Embed component to `ninjaLive Actor`
 - give you **interaction volumes** that help with sim activation > registering overlapping obj > component is capturing pivot bone or point. 
 - simulation plane is trace mesh itself > to painter > to sim 
 ## Character FX
-Add to movable actor like pawn. Cannot relay on interaction volume. We have user defined list instead.  And continuous interaction. 
+Add as component to actors like pawn. 
+- Cannot relay on interaction volume. We have user defined list instead.  And continuous interaction. 
 - user defined component > projecting to trace mesh 
 - texture offset automate (but default is ok)
-
+1. add ninja interface in class settings
+2. add trace mesh > 'set trace mesh from ninja component'
 ## Traces types
 `Camera` to `Camera facing plane` > behave like a billboard
 `Camera` to `Fixed Pland` > Project form cam
 `Fixed Point` to `Fixed Pland` > Project from top 
-
-## Global Sim 
-- active / deactivate 
-- attach to player 
-
-
 
 # Buffers
 Temporary storage of data 
@@ -69,13 +62,24 @@ Temporary storage of data
 - **Render targets expose** > external render targets  assets (created manualy) < easy acces and can read rt like textures 
 - **Direct Drive** - Primary / Secondary material that is applayed with tags  (internal RT) 
  
-
-
+## Interact with objects
+ To interact with ninja set:
+ - in component: set proper class filter (world dynamic, pawn) 
+ - in mesh  and ninja component: add  tags (track actor components with tag) 
+ - in mesh :  Collision `Generate overlap events `
 
 ---
-- `Generate overlap events ` Set in Mesh :  Colision
+## Global Sim 
 
-# FluidNinja Actors/Components 
+- **Activation Volume** - Optimise by active / deactivate
+-  **Interaction Volume** 
+
+ 
+
+---
+
+
+# FluidNinja Actors
 
 
 
@@ -91,36 +95,19 @@ Temporary storage of data
 		-  single target mode - to interpolate  points nicely
 	- Live Brush Settings 
 		-
-		
 
 
-### Activation / Interaction Volume 
-- optimise 
-
-
-
-
-
-
-
-
-
-### Trace mesh Component 
 
 ----
 
 
 Setups: 
 - Simulation should be always World (level main axies)/Screen Align (Not rotating !!!)
-- ![[Pasted image 20241108171941.png | 300]]
+
 - texture offset   (world space offsset - help build large scale ) essential for implementing small local sim limit to map into infinite surface 
-- ![[Pasted image 20241108172856.png | 300]]
+
 
 
 
 ---
-v
 
-# Preset manager BP  
-
-- can add to scene to test 

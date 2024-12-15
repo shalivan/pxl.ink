@@ -18,38 +18,77 @@ aliases:
 >Obsidian:   [Ludology](/ludology/)  / [[09-01-01-Ludology|ludology]]  [Game Design](/gamedesign/)    / [[08-01-01-GameDesign|gamedesign]]  [Lore](/lore/)  / [[12-01-01-Lore|lore]]
 
 
-Whoever controls the narrative has the power. 
-Facts presented as story that is familiar to us we verry likely to accept it on gut instinct, without examining it critically. (Framing)
+
+
 
 
 # Medium
-Stories define how we consume information,  create emotional experience, expand our view of the world. Telling stories is in human nature.  (to not feel alone in universe)    
-Stories emerge from our consciousness and observing ourselves and understand what is what we are doing. (successful life when you family, survive and thrive)
-Film is based on empathy.
-Stories round campfire > myths > printing press: linearize > Post linear: World building
 
-### Hauntology 
-Dereda.  (hount + ontology -study beeing )Our experience is connected with past and future and only then make sense 
+- Storytelling is intrinsic to human nature.  (to not feel alone in universe)
+- Stories arise from consciousness, self-reflection, and understanding our actions.  (family, survival, and thriving.)
+- Stories shape how we consume information, create emotional experiences, and expand our worldview.  Whoever controls the narrative has the power. 
+The evolution of storytelling: campfire tales > myths > printing press (linear storytelling) > post-linear storytelling (world-building).
 
+### Philosophical and Theoretical Perspectives
+
+#### Hauntology 
+Coined by Derrida ("haunt" + "ontology"): Our experiences gain meaning through connections to the past and future.
+### Narrative Theory
+Investigate theories of narrative structure, such as Aristotle's "Poetics" or Freytag's Pyramid, and how they apply to different media.
+
+Facts presented as story that is familiar to us we verry likely to accept it on gut instinct, without examining it critically. (Framing)
 # Genres
 
 ## Literary
-**Poetry** (liryka) (podmiot liryczny)  
-**Drama** (bohater) Na scene  comedy, tragedy, dramat  
-**Fiction / Nonfiction** (epika) (narrator)  nowela, opowiadanie, powieść, bajka epigramatyczna, bajka narracyjna, epopeja (epos), przypowieść.  
-Mitologia > Folklor > Fantastyka
--  **Parable** (przypowieść)  Parabolic novel which touches on many different issues. Inspired  by: metaphysics, language, culture, technology, ethic and the theoretical origins of human consciousness, creates a thought reaction chain. Postacie i zdarzenia nie są ważne ze względu na swe cechy jednostkowe, mają wagę jako przykłady uniwersalnych prawideł ludzkiej egzystencji, postaw wobec życia i kolei losu. Świat przedstawiony przypowieści to zbiór sytuacyjnych wykładników jakiejś ogólnej prawdy moralnej, Fabuła z racji swego przykładowego charakteru  pozostaje silnie uschematyzowana i uboga w realia, które podlegają tu rygorystycznej selekcji ze względu na nadrzędny sens utworu. Właściwa interpretacja przypowieści wymaga przejścia od jej znaczenia literalnego do ukrytego znaczenia alegorycznego (alegoria) lub moralnego. (allegorical moral story)  
--  **Exemplum** (Stories are examples ) odwołuje się do świata znanego swoim odbiorcom    
--  **Folktale** - belie with exaggerated characters and obstacles that is passed down over  
-  - Myth  - sacred and explain how things cam eto be
-  - Tall Tale - humorous
-  - Fairy Tail  - happy end with magic
-  - Fable - teach morals with animals as char.
-  - Legend - based on real person but cannot be proven
--  **Science and journalism** (Gatunki pograniczne) to gatunki z pogranicza literatury, nauki i publicystyki, np. esej, felieton, reportaż. Bio
+
+**Poetry**: Focused on lyrical expression (lyrical subject). 
+**Drama**: Presented on stage (characters). Includes comedy, tragedy, drama. 
+**Fiction/Nonfiction**: Narrative-driven (narrator). Examples: novella, short story, novel, fable, epic, parable.
+
+### Subgenres:
+
+- **Parable**: Allegorical stories exploring metaphysics, ethics, consciousness, and universal truths. Characters and events serve as symbolic examples. Interpretation requires uncovering hidden allegorical or moral meanings.
+- **Exemplum**: Stories rooted in familiar worlds, illustrating moral or universal lessons.
+- **Folktale**: Traditional stories passed down, featuring exaggerated characters and challenges.
+    - **Myth**: Sacred tales explaining origins.
+    - **Tall Tale**: Humorous, exaggerated narratives.
+    - **Fairy Tale**: Magical stories with happy endings.
+    - **Fable**: Moral lessons through animal characters.
+    - **Legend**: Stories about real figures, unverifiable.
+- **Science and Journalism**: Blurring literature, science, and public discourse, e.g., essays, columns, reportage. / Memoir/Autobiography
+
+
+**Mystery/Thriller**:**Romance**:
+
+- **Gothic Literature**: Dark, atmospheric stories exploring the macabre and supernatural.
+- **Epic Poetry**: Long narrative poems celebrating heroic deeds, such as _The Iliad_ or _Beowulf_.
+- **Native/Indigenous Storytelling**: Oral traditions and myths specific to indigenous cultures, often linked to spirituality and nature.
+- **Afrofuturism**: Stories blending science fiction, history, and African culture to explore identity and empowerment.
+
+- **Indigenous Oral Traditions**: Stories rooted in spiritual beliefs and environmental harmony, such as Native American creation myths or Aboriginal Dreamtime narratives.
+- **African Griots**: Oral historians who preserve history, genealogy, and moral lessons through performance and music.
+- **Japanese Noh and Kabuki**: Theatrical storytelling blending drama, dance, and music, reflecting traditional Japanese themes and aesthetics.
+- **Indian Epics**: Grand narratives like the _Mahabharata_ and _Ramayana_ blending mythology, philosophy, and moral teachings.
+- **Middle Eastern Tales**: Collections like _One Thousand and One Nights_, featuring layered storytelling and moral lessons.
+- **Nordic Sagas**: Epic tales of heroes, gods, and battles, reflecting Viking culture and values.
+- **Latin American Magical Realism**: Stories merging the mundane and fantastical, deeply tied to cultural identity and history.
+- **Chinese Classical Novels**: Multi-layered epics such as _Journey to the West_ and _Dream of the Red Chamber_ interweaving philosophy, adventure, and culture.
+- **Caribbean Folklore**: Tales incorporating African, European, and indigenous influences, often featuring trickster figures like Anansi.
+- **Pacific Islander Mythology**: Narratives of creation, gods, and heroes, tied to oceanic landscapes and traditions.
+- **Eastern European Fairy Tales**: Rich in allegory and often dark, exploring universal themes of struggle and morality.
+- **Greek Tragedy and Comedy**: Foundational plays addressing human flaws, destiny, and social critique.
+
+
 
 ---
+---
+---
+---
 # Paradigm
+
+
+Movies are build on empathy to characters.
+
 
 ## Premise
 **Premise is single core statement**, the foundation of story. premise statement is often a familiar expression or cliché. 'Latin words, meaning to put before'. Every story has one premise. Only one. This premise is the underlying idea of your story-the foundation that supports your entire plot.
@@ -121,6 +160,16 @@ Cannot say a story without **Place**, **Time** and **Character**. Or you can
 - moment goal reach story is over
 - Promise > Progress > Payoff
 - Substitution plot :L give sth else than what expected /harder to write/
+
+##  Bloom's Taxonomy Levels
+
+- Knowledge – recall of information.
+- Comprehension – understanding concepts.
+- Application – applying knowledge in different contexts.
+- Analysis – breaking down information.
+- Synthesis – creating new ideas or solutions.
+- Evaluation – judging and critiquing based on established criteria.
+
 
 ## Three-Act structure
 
