@@ -10,7 +10,7 @@ tags:
 description: Vegetation, foliage
 permalink: /foliage/
 aliases:
-  - foliage
+  - speedtree
 ---
 
 
