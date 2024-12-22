@@ -108,7 +108,7 @@ Check if time of frame is bigger from CPU or GPU. (cause threads must wait one f
 4. Dynamic light and shadows
  - Capsule shadow!
  - Ray trace (high end, accurate - shadows, ao )
- - wirtual shadow maps - with nanite  large virtual texture with auto stream
+ - Virtual shadow maps - with nanite  large virtual texture with auto stream
  - distance field
  - lumen tealtime gi  - distance field of mesh + surface cash (simple version used to trace against)
 

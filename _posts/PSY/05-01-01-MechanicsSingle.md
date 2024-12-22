@@ -527,3 +527,19 @@ Exapmple mechanics for single player shooters:
 
 
 etics !
+
+
+
+
+------------
+mini games 
+
+
+minigames 
+color 
+	words
+numbers 
+logic 
+zrecznosciowy ./ 
+arcade
+time 

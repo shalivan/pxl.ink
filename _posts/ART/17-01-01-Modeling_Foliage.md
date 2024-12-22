@@ -14,37 +14,6 @@ aliases:
 > Pxlink: [Composition]  [Color](/color/)  [Modeling](/modeling/)  [Sculpting](/sculpting/) 
  >Obsidian: [[21-01-01-Art]]   [[17-01-01-SpeedTree]]  [[17-01-01-Modeling]], [[17-01-01-Modeling_Foliage]]  [[18-01-01-Color]] [[16-01-01-Sculpting]] [[14-01-01-Procedural]] [[08-01-01-Material]]  [[20-01-01-VisualDesign]] [[17-01-01-Paint]]  [[14-01-01-Procedural]]  [[12-01-01-LevelDesign]] 
 
-Houdini rocks
-https://youtu.be/2kDSsbrFEKw
-Water Single Layer 
-https://www.artstation.com/blogs/rovana_c/poGo/water-shader-single-layer-material
-Map 
-https://www.youtube.com/watch?v=sZWD9bud-gk
-https://www.youtube.com/watch?v=uQNND6ShfqQ
-https://www.youtube.com/watch?v=eueGP4SIgGo
-https://youtu.be/onTfg05yeyw                                   
-
-Modeling
-- [Modeling high plands](https://www.exp-points.com/sven-mren-foliage-study)
-- [TexturesCom tut](https://www.textures.com/tutorials/double-sided-leaves-modelling)
-- [YT Houdini # Speedier Trees in Houdini: Botanically inspired production ](https://www.youtube.com/watch?v=e8ITnlrcvcQ&t=1709s)
-- https://www.youtube.com/watch?v=P7lZ-D-Fkus&list=PL-169OEn7ZLXkprHiKwS6rOW_UrJCAvxO
--  https://www.artstation.com/artwork/qQVZqR
-Wind
-- [Ghinish technique playlist 1 wind & 2 grass](https://www.youtube.com/watch?v=P7lZ-D-Fkus&list=PL-169OEn7ZLXkprHiKwS6rOW_UrJCAvxO)
-- [pt 3 using blender](https://youtu.be/BFnwkBv19TA)
-- [RT flowmap dynamic grass](https://www.raywenderlich.com/6314-creating-interactive-grass-in-unreal-engine-4)
-- https://youtu.be/MKX45_riWQA  Interactive Wind and Vegetation in 'God of War'
-
-FOLIAGE: 
-Set custom foliage data 
-repleace with skeletal
-https://youtu.be/JvX-BRmqlr8?t=921
-https://www.youtube.com/watch?v=vXalfRAnXak&list=PLVCUepYV6TvPYbofpEf_ghznfihM-yt-B
-
-
-
-# Vegetation animation
 
 
 # Vegetation modeling
@@ -53,73 +22,134 @@ https://www.youtube.com/watch?v=vXalfRAnXak&list=PLVCUepYV6TvPYbofpEf_ghznfihM-y
 
 We need parts which we will combine into objects. then objects will be used in composition.
 
-#### **References**    
+##### Complexity Level 
+- Grass - simplest
+- Weeds (bloosoms, seeds), 
+- Bushes (fundamental complex with leafy canopy - thought process how its build , hierarchical branch structure systems)
+- Tree - driving shilouetes
+- Hero Assets - complex canopy sculpted tree 
+by quality 
+- Stylized 
+- Natural real 
 
-  - References: [FoliageLibrary](https://treelib.ca/)    
-  - **Silhouettes** 
-	  - different sizes and shapes  (grass, plants, bush , tree)  
-	  - negative spaces 
-	  - slightly noisy 
-	  - organic and interesting on any angle
-  - **Clustering** - cluster of leaves.
-  - **Characteristic elements**: Ecosystem-biomes, Leaf band, Beginning, Gravity, Grouping (higher leaf more vertical change shape)
-  - **Characteristic behavior**: 
-	  - Growth towards the sun, 
-	  - Not vascular plants growth in shadows  (to not dry out). 
-	  - Moss mostly 'N' in North hemisphere.
-	  - New trees growth only where is light - new and old forests. young mid forest compete for light so much there could be no place for new trees. 
-  - where plants growth - in garden are clean
-  - sizes: small mid …
-  - natural shapes:  thickness constraint by Leonard DaVinci: - at any point parent branch needs to have combined thickness of all the tow branches. 
 
-#### **Modeling**    
+# References
+- Characteristic
+    - References:
+        - [Foliage Library](https://treelib.ca/)
+        - [Plantnet.org app for identification](http://www.plantnet.org/)
+        - For trees, use references without leaves to see branch structure
+    - Silhouettes
+        - Various sizes and shapes (grass, plants, bush, tree)
+        - Negative spaces
+        - Slightly noisy
+        - Organic and interesting from any angle
+    - Clustering - clusters of leaves
+    - Characteristic Elements: 
+	    - Ecosystem-biomes, Leaf band, Beginning, Gravity, Grouping (higher leaf implies more vertical shape change) Age decay processes which might alter their appearance
+    - Characteristic Behavior:
+        - Reproduction method (seeds, spores, cuttings) that influence growth patterns and distribution in different environments.
+        - New tree growth requires light, leading to competition in young and middle-aged forests, potentially leaving no space for new trees
+        - Non-vascular plants grow in shadows to retain moisture
+        - Moss predominantly faces north in the Northern Hemisphere
+        - Growth towards the sun
+        - Stress or disease which can alter the visual characteristics of plants, like leaf discoloration or unusual growth patterns.
+    - Plant Growth Locations
+        - In gardens, plants are clean
+        - Standalone plants are wide; forest plants make space for others, influenced by surrounding flora
+        - drought resistance or tolerance to different soil types.
+        - interact with other species (both plant and animal) in an ecosystem, like symbiotic relationships or as habitats.
+        - weather climate
+    - Natural Shapes: 
+	    - Thickness follows Leonardo DaVinci's constrain
+	    - Size of leaves should be natural. 
+
+## Concepting
+
+- Planning
+    - Biomes come first (big picture)
+    - Define biome identity > determine necessary plants > identify use cases
+    - Silhouette readability is crucial but should be generic for repetition
+    - Environmental factors like wind or wet soil define biome identity; roots can help ground assets
+    - Leaf scale and texel density - avoid scaling to maintain weight and density
+
+- Foliage Structure
+    - Leaf Morphology
+        - Conifer
+        - Broadleaf
+            - Venation types on leaves (parallel on grass)
+            - shapes (e.g., oval, lanceolate, palmate) and margins (e.g., smooth, serrated).
+
+    - How leaves connect to branches
+    - Frond references for replicating branch structure
+    - Trees' appearance can vary, and bark structure may change over time
+
+
+Biome-specific plant adaptations
+
+
+# **Modeling**    
 Methods for foliage production: 
 - Pate: direct modeling / L system / self organizing models 
 - Present: Skeletonization / Photogrammetry / Simulation 
 - Future: Lidar / AI / Single View reconstruction / L-Systems
+
+## Atlas 
+**Leaf atlas**  atlas texture - elements you need to create cluster. Not used in game
+- can scan
+	- Leaf must be on lighting table (lit from bottom for translucency) 15mm prime lens. Can put book to flat them (deform will cast shadow on themselves). 
+	- 6 pictures with clockwise light from different angles.  (cannot move anything) must be perfectly align 
+- sculpt
+- node material (substance like)
+**Leaf cluster** atlas texture. (combine and attach) it will make or brake creation process. Can make in speed tree
+- you need to create parts from leaf atlas 
+	- main  bare branch 
+	- bare branch extender
+	- main leafy branch 
+	- filler branch x2
+	- extender branch x2 
+	- single leaf
+	- fruits 
+	- bark strip - 
+Cutout leaves 
+
+## Branches
+
+Leonardo da Vinci's constraint:
+combined cross-sectional area of a tree's branches at any point is approximately equal to the cross-sectional area of the trunk or parent branch from which they stem. This means:
+- Branch Thickness: At any given point, the parent branch should have a thickness roughly equivalent to the sum of the thicknesses of all its child branches. This principle helps maintain the structural integrity and balance of the tree as it grows.
+
+Figure out branch structure 
+geometry branch/card geometry - know where to switch 
+
+
+
+
+
+
+[YT Eric Wiley Substance atlas](https://youtu.be/5uqVlDlg3yo)
+#### Modeling 
+speedtree
+
+#### Animation / LODs 
+
+#### Variants
+
+
+
+
+
+
+----------------------
+
+
+
 
 ### problems: 
 - branch transition - additional band with alpha
 - clusters - atomic elements  + decorative detials + trunk 
 
 ##### Building parts (molecules ? nodes?)
-```
-**Low poly model** (parts)
-  - Parts (leafs, stamp)
-  - Symmetry
-  - Direct leaf to create planes good for view
-
-**Low poly cards** - for more optimised models or lods. Used with 'leafs clusters' (thigs)
-
-
-**Early uv** unvrap on low
-  - 2 sided leaf  for detail u can apply different textures (shifted on backside)
-
-**Sculpt** think before sculpt if its what u need
-  - Derive thickened and subdivided model from low poly.
-  - Material id's for parts
-  - sculpt
-
-**Low poly refine**
-  - Check how big cutoff could be to get optimal visible part without alpha, and avoid overdraw
-  - Triangulation sometimes needs to be refine.
-
-**Bake**
-  - Bake by uv's (like cloths).
-```
-
-
-sposob 2 :
-- zrob high w z.
-
-**Compose** plants. Arrange and deform  
-  - ... >?
-  - Simulate to refine final shape
-  - Set per object attributes
-
-**Export**
-  - Prepare Vertex Anim. (Vertex color for movement  (main branch, leafs and thin edges ))
-  - ... >?  Normals. On bush:  Custom Vertex normals - transfer normal from vdb tree form.
 
 **Painting**
   - Spots with color variations (some blurry)
@@ -127,30 +157,6 @@ sposob 2 :
   - Paint masks: sss,
   - Veins and celular patterns
   - Vines to subsurface mask!
-
-**Material**
-- color
-    - fuzzy shading
-    - blend with landscape layer or use landscape layers as a mask
-- normal
-    - to camera ? bottom up ?  
-    - rotating normals towards camera instead of pointing them up, is a good supplement to unify grass shading, while not causing uniform ugly white sheen
-    - if tangent space normals are enabled in material, your normal will be flipped for backface. While it is desired behavior for grass cards with default normals,
-    - if you are using foliage with edited normals, the backfaces will have incorrect normals. Using foliage with edited normals implies disabling disabling tangent space normals and handling normals yourself in the material using two-sided sign.
-    - You’d want every grass blade to have some sort of distinct specular highlights, preferably corresponding to grass blade orientation, supported by normal map. (not pointing grass normals straight up)
-    - normal map is in use, it also helps if its intensity is high enough to shift surface-subsurface balance from card level to grass blade level.
-- vertex anim **movement**  
-    - rotate on slopes to have grass pointing up all the time !!!
-    - wind and interaction, bend grass near player
-    - wygiac przy playerze cardsy troche do kamery  
-    - scale anim and size on distance to betere disappear LOD
-    - scale grass down on last lod
-    - how fast move depend on scale `smooth ramp =x*(in+1))/(x-in)`
-- sss
-    - SSS color should not differ considerably from albedo.
-    -  SSS is obtained by sampling environment cubemap in the direction, opposite of the normal. If your grass cluster normals are pointing upwards, they will sample the skylight from bottom part. Needless to say, that if skylight is set to use black for lower hemisphere, you won’t get any subsurface from indirect light.
-- - off specular on bottom 
-- shadows ... ?
 
 **Placement**
   - cluster foliage, procedural placement system
@@ -228,3 +234,103 @@ Available tools for foliage creation: 2023
 Bruno Moulia
 
 > Book history : natural design of nature - computer generated plants and organics Oliver Deussen, Bernd Lintermann
+
+
+
+[YT Foliage workflow](https://youtu.be/wGvCy-Yai9A)
+Houdini rocks
+https://youtu.be/2kDSsbrFEKw
+Water Single Layer 
+https://www.artstation.com/blogs/rovana_c/poGo/water-shader-single-layer-material
+Map 
+https://www.youtube.com/watch?v=sZWD9bud-gk
+https://www.youtube.com/watch?v=uQNND6ShfqQ
+https://www.youtube.com/watch?v=eueGP4SIgGo
+https://youtu.be/onTfg05yeyw                                   
+
+Modeling
+- [Modeling high plands](https://www.exp-points.com/sven-mren-foliage-study)
+- [TexturesCom tut](https://www.textures.com/tutorials/double-sided-leaves-modelling)
+- [YT Houdini # Speedier Trees in Houdini: Botanically inspired production ](https://www.youtube.com/watch?v=e8ITnlrcvcQ&t=1709s)
+- https://www.youtube.com/watch?v=P7lZ-D-Fkus&list=PL-169OEn7ZLXkprHiKwS6rOW_UrJCAvxO
+-  https://www.artstation.com/artwork/qQVZqR
+Wind
+- [Ghinish technique playlist 1 wind & 2 grass](https://www.youtube.com/watch?v=P7lZ-D-Fkus&list=PL-169OEn7ZLXkprHiKwS6rOW_UrJCAvxO)
+- [pt 3 using blender](https://youtu.be/BFnwkBv19TA)
+- [RT flowmap dynamic grass](https://www.raywenderlich.com/6314-creating-interactive-grass-in-unreal-engine-4)
+- https://youtu.be/MKX45_riWQA  Interactive Wind and Vegetation in 'God of War'
+
+FOLIAGE: 
+Set custom foliage data 
+repleace with skeletal
+https://youtu.be/JvX-BRmqlr8?t=921
+https://www.youtube.com/watch?v=vXalfRAnXak&list=PLVCUepYV6TvPYbofpEf_ghznfihM-yt-B
+
+
+
+
+```
+**Low poly model** (parts)
+  - Parts (leafs, stamp)
+  - Symmetry
+  - Direct leaf to create planes good for view
+
+**Low poly cards** - for more optimised models or lods. Used with 'leafs clusters' (thigs)
+
+
+**Early uv** unvrap on low
+  - 2 sided leaf  for detail u can apply different textures (shifted on backside)
+
+**Sculpt** think before sculpt if its what u need
+  - Derive thickened and subdivided model from low poly.
+  - Material id's for parts
+  - sculpt
+
+**Low poly refine**
+  - Check how big cutoff could be to get optimal visible part without alpha, and avoid overdraw
+  - Triangulation sometimes needs to be refine.
+
+**Bake**
+  - Bake by uv's (like cloths).
+
+
+
+sposob 2 :
+- zrob high w z.
+
+**Compose** plants. Arrange and deform  
+  - ... >?
+  - Simulate to refine final shape
+  - Set per object attributes
+
+**Export**
+  - Prepare Vertex Anim. (Vertex color for movement  (main branch, leafs and thin edges ))
+  - ... >?  Normals. On bush:  Custom Vertex normals - transfer normal from vdb tree form.
+
+
+**Material**
+- color
+    - fuzzy shading
+    - blend with landscape layer or use landscape layers as a mask
+- normal
+    - to camera ? bottom up ?  
+    - rotating normals towards camera instead of pointing them up, is a good supplement to unify grass shading, while not causing uniform ugly white sheen
+    - if tangent space normals are enabled in material, your normal will be flipped for backface. While it is desired behavior for grass cards with default normals,
+    - if you are using foliage with edited normals, the backfaces will have incorrect normals. Using foliage with edited normals implies disabling disabling tangent space normals and handling normals yourself in the material using two-sided sign.
+    - You’d want every grass blade to have some sort of distinct specular highlights, preferably corresponding to grass blade orientation, supported by normal map. (not pointing grass normals straight up)
+    - normal map is in use, it also helps if its intensity is high enough to shift surface-subsurface balance from card level to grass blade level.
+- vertex anim **movement**  
+    - rotate on slopes to have grass pointing up all the time !!!
+    - wind and interaction, bend grass near player
+    - wygiac przy playerze cardsy troche do kamery  
+    - scale anim and size on distance to betere disappear LOD
+    - scale grass down on last lod
+    - how fast move depend on scale `smooth ramp =x*(in+1))/(x-in)`
+- sss
+    - SSS color should not differ considerably from albedo.
+    -  SSS is obtained by sampling environment cubemap in the direction, opposite of the normal. If your grass cluster normals are pointing upwards, they will sample the skylight from bottom part. Needless to say, that if skylight is set to use black for lower hemisphere, you won’t get any subsurface from indirect light.
+- - off specular on bottom 
+- shadows ... ?
+
+
+```
