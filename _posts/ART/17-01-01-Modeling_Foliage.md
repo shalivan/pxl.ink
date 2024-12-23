@@ -20,18 +20,18 @@ aliases:
 
 ## Technical pipeline
 
-We need parts which we will combine into objects. then objects will be used in composition.
+We need `parts` which we will combine into `objects`. then objects will be used in `composition`.
 
-##### Complexity Level 
-- Grass - simplest
-- Weeds (bloosoms, seeds), 
-- Bushes (fundamental complex with leafy canopy - thought process how its build , hierarchical branch structure systems)
-- Tree - driving shilouetes
-- Hero Assets - complex canopy sculpted tree 
-by quality 
-- Stylized 
-- Natural real 
-
+### Complexity Level
+By complexity
+- Grass - Simplest
+- Weeds - Blossoms, seeds
+- Bushes - Complex leafy canopy, hierarchical branch structure
+- Trees - Defines silhouettes
+- Hero Assets - Sculpted, complex canopy
+By Quality
+- Stylized
+- Natural Real
 
 # References
 - Characteristic
@@ -54,7 +54,7 @@ by quality
         - Moss predominantly faces north in the Northern Hemisphere
         - Growth towards the sun
         - Stress or disease which can alter the visual characteristics of plants, like leaf discoloration or unusual growth patterns.
-    - Plant Growth Locations
+    - Biome-specific plant adaptations:
         - In gardens, plants are clean
         - Standalone plants are wide; forest plants make space for others, influenced by surrounding flora
         - drought resistance or tolerance to different soil types.
@@ -84,72 +84,48 @@ by quality
     - Frond references for replicating branch structure
     - Trees' appearance can vary, and bark structure may change over time
 
+# Modeling
 
-Biome-specific plant adaptations
+Methods for Foliage Production:
+- Past: Direct modeling, L-Systems, self-organizing models
+- Present: Skeletonization, Photogrammetry, Simulation
+- Future: LiDAR, AI, Single View reconstruction, L-Systems
 
+  
+### Atlas
 
-# **Modeling**    
-Methods for foliage production: 
-- Pate: direct modeling / L system / self organizing models 
-- Present: Skeletonization / Photogrammetry / Simulation 
-- Future: Lidar / AI / Single View reconstruction / L-Systems
+Leaf Atlas - Texture atlas with elements for creating clusters, not used in-game:
+- Scanning:
+    - Leaf on a lighting table (lit from below for translucency), use 15mm prime lens; flatten with a book to avoid self-shadowing.
+    - Take 6 pictures with light at different angles, clockwise, keep alignment perfect.
+- Sculpting
+- Node Material (similar to Substance Designer)
 
-## Atlas 
-**Leaf atlas**  atlas texture - elements you need to create cluster. Not used in game
-- can scan
-	- Leaf must be on lighting table (lit from bottom for translucency) 15mm prime lens. Can put book to flat them (deform will cast shadow on themselves). 
-	- 6 pictures with clockwise light from different angles.  (cannot move anything) must be perfectly align 
-- sculpt
-- node material (substance like)
-**Leaf cluster** atlas texture. (combine and attach) it will make or brake creation process. Can make in speed tree
-- you need to create parts from leaf atlas 
-	- main  bare branch 
-	- bare branch extender
-	- main leafy branch 
-	- filler branch x2
-	- extender branch x2 
-	- single leaf
-	- fruits 
-	- bark strip - 
-Cutout leaves 
+Leaf Cluster Atlas - For combining and attaching elements, crucial for the creation process; can be made in tools like SpeedTree:
+- Components from leaf atlas:    - Main bare branch    - Bare branch extender    - Main leafy branch    - Filler branch x2    - Extender branch x2    - Single leaf    - Fruits    - Bark strip
+- Cutout leaves
 
-## Branches
+### Branches
 
-Leonardo da Vinci's constraint:
-combined cross-sectional area of a tree's branches at any point is approximately equal to the cross-sectional area of the trunk or parent branch from which they stem. This means:
-- Branch Thickness: At any given point, the parent branch should have a thickness roughly equivalent to the sum of the thicknesses of all its child branches. This principle helps maintain the structural integrity and balance of the tree as it grows.
+Leonardo da Vinci's Constraint:
+- The combined cross-sectional area of branches at any point should approximate the area of the trunk or parent branch. This aids in maintaining structural integrity and balance.
 
-Figure out branch structure 
-geometry branch/card geometry - know where to switch 
+Branch Structure:
+- Figure out branch structure: Understanding where to switch from branch geometry to card geometry.
+- [YT Eric Wiley Substance atlas](https://youtu.be/5uqVlDlg3yo)
 
 
-
-
-
-
-[YT Eric Wiley Substance atlas](https://youtu.be/5uqVlDlg3yo)
-#### Modeling 
-speedtree
-
-#### Animation / LODs 
-
-#### Variants
-
-
-
-
-
-
-----------------------
-
-
-
-
-### problems: 
+### Modeling 
+Speedtree
 - branch transition - additional band with alpha
-- clusters - atomic elements  + decorative detials + trunk 
 
-##### Building parts (molecules ? nodes?)
+
+### Variants
+
+
+
+# Material 
+
 
 **Painting**
   - Spots with color variations (some blurry)
@@ -158,12 +134,13 @@ speedtree
   - Veins and celular patterns
   - Vines to subsurface mask!
 
-**Placement**
-  - cluster foliage, procedural placement system
+# Animation 
 
-**Engine optimization**
-  - 2 sided foliage option
-  - Early z pass 
+
+# Composition and Placement 
+  - Cluster foliage, procedural placement system
+
+
 
 **Lighting**
   -  balance between skylight and directional light intensity. In case, when latter is overly strong, there will be distinct separation between zones of dominant subsurface and surface It feels that tweaking subsurface intensity separately for direct and indirect light we pretty good thing to have, but this one would be only tweakable per light, not per material.
@@ -171,15 +148,22 @@ speedtree
 - use shadow, ? without can be smoother.
 
 
----
+
+# Optimization
+
+  - 2 sided foliage option
+  - Early z pass 
+ - LODs
+
+----------------------
+
+
 
 
 # Foliage
 
 
 #### Grass
-
-
 #### Fungi
 
 #### Roots 
@@ -189,14 +173,6 @@ speedtree
 #### Moss
 
 'Lot more porous, with amassive amount of self-shadowing, ambient occlusion, and transmitted light. The moss itself tends to have a lighter color at the tips than deeper towards the base. And there’s a strong viewing angle dependency – when viewed straight on, you can see down into the shadows between the fibers, and while viewed from an angle, only the tips are visible.'
-
-
-
-
-
-
-
-
 
 
 
@@ -236,6 +212,7 @@ Bruno Moulia
 > Book history : natural design of nature - computer generated plants and organics Oliver Deussen, Bernd Lintermann
 
 
+# Links
 
 [YT Foliage workflow](https://youtu.be/wGvCy-Yai9A)
 Houdini rocks
