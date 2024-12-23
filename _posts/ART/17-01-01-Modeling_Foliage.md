@@ -13,25 +13,9 @@ aliases:
 ---
 > Pxlink: [Composition]  [Color](/color/)  [Modeling](/modeling/)  [Sculpting](/sculpting/) 
 
-
+{% comment %}
  >Obsidian: [[21-01-01-Art]]   [[17-01-01-SpeedTree]]  [[17-01-01-Modeling]], [[17-01-01-Modeling_Foliage]]  [[18-01-01-Color]] [[16-01-01-Sculpting]] [[14-01-01-Procedural]] [[08-01-01-Material]]  [[20-01-01-VisualDesign]] [[17-01-01-Paint]]  [[14-01-01-Procedural]]  [[12-01-01-LevelDesign]] 
-
-
-{% comment %} This text is hidden in Jekyll. {% endcomment %}
-
-<!-- This line will not appear on the website -->
-
-{{/* This text is hidden in Hugo */}}
-
-[//]: # (This text is hidden in some Markdown renderers)
-
-
-csss <span style="display:none;">This text is hidden with CSS.</span> csss
-
-
-
-
-
+{% endcomment %}
 
 # Vegetation modeling
 
@@ -52,6 +36,8 @@ By Quality
 - Natural Real
 
 # References
+## References
+
 - Characteristic
     - References:
         - [Foliage Library](https://treelib.ca/)
