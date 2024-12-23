@@ -12,7 +12,24 @@ aliases:
   - foliage
 ---
 > Pxlink: [Composition]  [Color](/color/)  [Modeling](/modeling/)  [Sculpting](/sculpting/) 
+
+
  >Obsidian: [[21-01-01-Art]]   [[17-01-01-SpeedTree]]  [[17-01-01-Modeling]], [[17-01-01-Modeling_Foliage]]  [[18-01-01-Color]] [[16-01-01-Sculpting]] [[14-01-01-Procedural]] [[08-01-01-Material]]  [[20-01-01-VisualDesign]] [[17-01-01-Paint]]  [[14-01-01-Procedural]]  [[12-01-01-LevelDesign]] 
+
+
+{% comment %} This text is hidden in Jekyll. {% endcomment %}
+
+<!-- This line will not appear on the website -->
+
+{{/* This text is hidden in Hugo */}}
+
+[//]: # (This text is hidden in some Markdown renderers)
+
+
+csss <span style="display:none;">This text is hidden with CSS.</span> csss
+
+
+
 
 
 
@@ -29,6 +46,7 @@ By complexity
 - Bushes - Complex leafy canopy, hierarchical branch structure
 - Trees - Defines silhouettes
 - Hero Assets - Sculpted, complex canopy
+
 By Quality
 - Stylized
 - Natural Real
@@ -92,20 +110,22 @@ Methods for Foliage Production:
 - Future: LiDAR, AI, Single View reconstruction, L-Systems
 
   
-### Atlas
+## Atlas
 
-Leaf Atlas - Texture atlas with elements for creating clusters, not used in-game:
+### Leaf Atlas 
+Texture atlas with elements for creating clusters, not used in-game:
 - Scanning:
     - Leaf on a lighting table (lit from below for translucency), use 15mm prime lens; flatten with a book to avoid self-shadowing.
     - Take 6 pictures with light at different angles, clockwise, keep alignment perfect.
 - Sculpting
 - Node Material (similar to Substance Designer)
 
-Leaf Cluster Atlas - For combining and attaching elements, crucial for the creation process; can be made in tools like SpeedTree:
+### Leaf Cluster Atlas 
+For combining and attaching elements, crucial for the creation process; can be made in tools like SpeedTree:
 - Components from leaf atlas:    - Main bare branch    - Bare branch extender    - Main leafy branch    - Filler branch x2    - Extender branch x2    - Single leaf    - Fruits    - Bark strip
 - Cutout leaves
 
-### Branches
+## Branches
 
 Leonardo da Vinci's Constraint:
 - The combined cross-sectional area of branches at any point should approximate the area of the trunk or parent branch. This aids in maintaining structural integrity and balance.
@@ -115,17 +135,20 @@ Branch Structure:
 - [YT Eric Wiley Substance atlas](https://youtu.be/5uqVlDlg3yo)
 
 
-### Modeling 
+## Modeling 
 Speedtree
 - branch transition - additional band with alpha
 
 
-### Variants
+## Variants
 
 
 
 # Material 
 
+#### Bakes 
+ - Derive thickened and subdivided model from low poly.
+  - Material id's for parts
 
 **Painting**
   - Spots with color variations (some blurry)
@@ -133,6 +156,30 @@ Speedtree
   - Paint masks: sss,
   - Veins and celular patterns
   - Vines to subsurface mask!
+
+- color
+    - fuzzy shading
+    - blend with landscape layer or use landscape layers as a mask
+- normal
+    - to camera ? bottom up ?  
+    - rotating normals towards camera instead of pointing them up, is a good supplement to unify grass shading, while not causing uniform ugly white sheen
+    - if tangent space normals are enabled in material, your normal will be flipped for backface. While it is desired behavior for grass cards with default normals,
+    - if you are using foliage with edited normals, the backfaces will have incorrect normals. Using foliage with edited normals implies disabling disabling tangent space normals and handling normals yourself in the material using two-sided sign.
+    - You’d want every grass blade to have some sort of distinct specular highlights, preferably corresponding to grass blade orientation, supported by normal map. (not pointing grass normals straight up)
+    - normal map is in use, it also helps if its intensity is high enough to shift surface-subsurface balance from card level to grass blade level.
+- vertex anim **movement**  
+    - rotate on slopes to have grass pointing up all the time !!!
+    - wind and interaction, bend grass near player
+    - wygiac przy playerze cardsy troche do kamery  
+    - scale anim and size on distance to betere disappear LOD
+    - scale grass down on last lod
+    - how fast move depend on scale `smooth ramp =x*(in+1))/(x-in)`
+- sss
+    - SSS color should not differ considerably from albedo.
+    -  SSS is obtained by sampling environment cubemap in the direction, opposite of the normal. If your grass cluster normals are pointing upwards, they will sample the skylight from bottom part. Needless to say, that if skylight is set to use black for lower hemisphere, you won’t get any subsurface from indirect light.
+- - off specular on bottom 
+- shadows ... ?
+
 
 # Animation 
 
@@ -244,70 +291,3 @@ https://youtu.be/JvX-BRmqlr8?t=921
 https://www.youtube.com/watch?v=vXalfRAnXak&list=PLVCUepYV6TvPYbofpEf_ghznfihM-yt-B
 
 
-
-
-```
-**Low poly model** (parts)
-  - Parts (leafs, stamp)
-  - Symmetry
-  - Direct leaf to create planes good for view
-
-**Low poly cards** - for more optimised models or lods. Used with 'leafs clusters' (thigs)
-
-
-**Early uv** unvrap on low
-  - 2 sided leaf  for detail u can apply different textures (shifted on backside)
-
-**Sculpt** think before sculpt if its what u need
-  - Derive thickened and subdivided model from low poly.
-  - Material id's for parts
-  - sculpt
-
-**Low poly refine**
-  - Check how big cutoff could be to get optimal visible part without alpha, and avoid overdraw
-  - Triangulation sometimes needs to be refine.
-
-**Bake**
-  - Bake by uv's (like cloths).
-
-
-
-sposob 2 :
-- zrob high w z.
-
-**Compose** plants. Arrange and deform  
-  - ... >?
-  - Simulate to refine final shape
-  - Set per object attributes
-
-**Export**
-  - Prepare Vertex Anim. (Vertex color for movement  (main branch, leafs and thin edges ))
-  - ... >?  Normals. On bush:  Custom Vertex normals - transfer normal from vdb tree form.
-
-
-**Material**
-- color
-    - fuzzy shading
-    - blend with landscape layer or use landscape layers as a mask
-- normal
-    - to camera ? bottom up ?  
-    - rotating normals towards camera instead of pointing them up, is a good supplement to unify grass shading, while not causing uniform ugly white sheen
-    - if tangent space normals are enabled in material, your normal will be flipped for backface. While it is desired behavior for grass cards with default normals,
-    - if you are using foliage with edited normals, the backfaces will have incorrect normals. Using foliage with edited normals implies disabling disabling tangent space normals and handling normals yourself in the material using two-sided sign.
-    - You’d want every grass blade to have some sort of distinct specular highlights, preferably corresponding to grass blade orientation, supported by normal map. (not pointing grass normals straight up)
-    - normal map is in use, it also helps if its intensity is high enough to shift surface-subsurface balance from card level to grass blade level.
-- vertex anim **movement**  
-    - rotate on slopes to have grass pointing up all the time !!!
-    - wind and interaction, bend grass near player
-    - wygiac przy playerze cardsy troche do kamery  
-    - scale anim and size on distance to betere disappear LOD
-    - scale grass down on last lod
-    - how fast move depend on scale `smooth ramp =x*(in+1))/(x-in)`
-- sss
-    - SSS color should not differ considerably from albedo.
-    -  SSS is obtained by sampling environment cubemap in the direction, opposite of the normal. If your grass cluster normals are pointing upwards, they will sample the skylight from bottom part. Needless to say, that if skylight is set to use black for lower hemisphere, you won’t get any subsurface from indirect light.
-- - off specular on bottom 
-- shadows ... ?
-
-
-```
