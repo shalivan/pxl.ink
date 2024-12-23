@@ -1,5 +1,5 @@
 ---
-title: Modeling - Vegetation
+title: Modeling - Vegetation - Speed Tree
 categories:
   - ART
 tags:
@@ -8,7 +8,7 @@ tags:
   - CG
   - Software
 description: Vegetation, foliage
-permalink: /foliage/
+permalink: /speedtree/
 aliases:
   - speedtree
 ---
