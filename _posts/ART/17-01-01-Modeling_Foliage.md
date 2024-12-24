@@ -11,7 +11,7 @@ permalink: /foliage/
 aliases:
   - foliage
 ---
-> Pxlink: [Composition]  [Color](/color/)  [Modeling](/modeling/)  [Sculpting](/sculpting/) 
+> [Color](/color/)  [Modeling](/modeling/)  [Sculpting](/sculpting/) [SpeedTree](speedtree)
 
 {% comment %}
  >Obsidian: [[21-01-01-Art]]   [[17-01-01-SpeedTree]]  [[17-01-01-Modeling]], [[17-01-01-Modeling_Foliage]]  [[18-01-01-Color]] [[16-01-01-Sculpting]] [[14-01-01-Procedural]] [[08-01-01-Material]]  [[20-01-01-VisualDesign]] [[17-01-01-Paint]]  [[14-01-01-Procedural]]  [[12-01-01-LevelDesign]] 
@@ -160,9 +160,11 @@ Speedtree
     - scale anim and size on distance to betere disappear LOD
     - scale grass down on last lod
     - how fast move depend on scale `smooth ramp =x*(in+1))/(x-in)`
-- sss
+- sss  (Subdermal maps)
     - SSS color should not differ considerably from albedo.
     -  SSS is obtained by sampling environment cubemap in the direction, opposite of the normal. If your grass cluster normals are pointing upwards, they will sample the skylight from bottom part. Needless to say, that if skylight is set to use black for lower hemisphere, you won’t get any subsurface from indirect light.
+	- Rendering: SSS for foliage is using gausian method: vec3 sss = exp(-3 * abs(NdotL) / (radious + 0.001)); while skin is using exponential method. There are other methods like: ray tracing / screen space 
+	- https://youtu.be/wfPoVnBFv-0
 - - off specular on bottom 
 - shadows ... ?
 
