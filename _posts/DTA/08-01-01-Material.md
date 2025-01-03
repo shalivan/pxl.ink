@@ -15,107 +15,100 @@ aliases:
 ---
 
 > Pxlink: [Camera](/camera/)  / [Algebra](/algebra/) /[Rendering](/rendering/) / [Substance Designer](/substancedesigner/) / [[16-02-01-Substance_Designer|substancedesigner]]
+
+
+{% comment %}
 > Obsidian: [[DTA]] [[11-01-01-Math]]  / [[15-01-01-Shading]]
 
-
-# Specular Workflow 
-
-## Strata 
+{% endcomment %}
 
 
 
-|         | F0                                    | f90 |
-| ------- | ------------------------------------- | --- |
-| Plastic | 0.04 most materials default in unreal |     |
-|         |                                       |     |
-|         |                                       |     |
+Formulas:  
+
 
 # Metallic Workflow
 
-Less thinks to connect up. 
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## Albedo / Reflectance
-Diffuse **reflected color** for dielectric and **reflectance** value for metals 
-Flat lower contrast and brighter than normal photo. 
-
+Diffuse **reflected color** for dielectric  - flat lower contrast and brighter than normal photography
+**Reflectance** value for metals 
 
 #### Median luminosity
 
-##### Dielectrics
-`50` - `245` (sRGB)
-`0.02` - `0.9` (Linear RGB)
 
 ##### Metal 
 `180` / `186` - `255` (sRGB) 
 `0.7` - `1` specular
 
+##### Dielectrics
+`50` - `245` (sRGB)
+`0.02` - `0.9` (Linear RGB)
 
-| Mat                           | Linear                  | Linear byte | sRGB                            |
-| ----------------------------- | ----------------------- | ----------- | ------------------------------- |
-| White                         | `0.893`                 | 229,229,229 | `240` - `249` (`0.95`)          |
-| Gray (Zone V)                 | `0.18`                  | 46,46,46    | `128` (`0.5`)                   |
-| Black                         | `0.01` - `0.027`        | 7,7,7       | `30` - `50` (`0.117` - `0.195`) |
-|                               |                         |             |                                 |
-| Fresh snow                    | `0.90`                  |             | (0.95)                          |
-| White acrylic paint           | `0.81`                  | 243,243,243 | `230`                           |
-| Brright Gray                  | `0.5`                   | 128,128,128 | `186` (`0.72`)                  |
-| Black Paint                   | `0.02`                  | 5,5,5       | `43` (`0.169`)                  |
-| Coal / Carbon / Fresh asphalt | `0.02` - `0.04`         |             |                                 |
-| **CONCRETE**                  |                         |             |                                 |
-| Fresh concrete                | `0.51` - `0.55`         | 192,191,187 | (0.67)                          |
-| Worn asphalt                  | `0.08`- `0.15`          |             | (0.42)                          |
-| Old Concrete                  | 0.3                     | 135,136,131 | (0.57)                          |
-| White cement                  | 0.7                     |             | (0.85)                          |
-| **ROCK**                      |                         |             |                                 |
-| Limestone                     | `0.3` - `0.45`          |             | `148` - `177`                   |
-| Rock                          | `0.3` - `0.4`           |             | `148` - `168`                   |
-| **SOIL**                      |                         |             |                                 |
-| Sandy Soil                    | `0.25` - `0.45` Dry     |             | `136` - `177`                   |
-| Desert sand                   | `0.36`  -` 0.40` Dry    | 177,167,132 | (0.65)                          |
-| Clay Soil                     | `0.23` - `0.4` Dry      | 137,120,100 | `131` - `168`                   |
-| Grey soil                     | `0.1`  Wet  `0.3` Dry   |             | `90` - `148`                    |
-| Silt loam Soil                | `0.23` - `0.28` Dry     |             | `131` -`143`                    |
-| Bare soil / Dark earth        | `0.13` - `0.17` Dry     |             | `114`                           |
-| Yellow Clay                   | `0.16`                  |             | `111`                           |
-| Black soil                    | `0.08` Wet  `0.15` Dry  |             | `81` - `108`                    |
-| **FOLIAGE**                   |                         |             |                                 |
-| Green grass                   | `0.2` -  `0.25`         |             | `123` - `136` (`0.53`)          |
-| Tundra                        | `0.2`                   |             | `123`                           |
-| Tall wild grass               | `0.16` - `0.18`         |             | `111` - `117`                   |
-| Tea bushes                    | `0.16` - `0.18`         |             | `111` - `117`                   |
-| Corn field                    | `0.16` - `0.17`         |             | `111` - `114`                   |
-| Deciduous trees               | `0.15` - `0.18`         |             | `108` - `117`                   |
-| Grain crops                   | `0.1` - `0.25`          |             | `90` - `136`                    |
-| Moss                          | `0.1`                   |             | `90`                            |
-| Summer Foliage                | `0.09` - `0.12`         |             | `85`                            |
-| Autumn foliage                | `0.15` - `0.3`          |             | `109` -`148`                    |
-| Conifer Forest                | `0.08` - `0.12`         |             | `81`                            |
-| Leafs                         | `0.07` Wet  `0.2` Dry   |             | `75` - `123`                    |
-| **WOOD**                      |                         |             |                                 |
-| Batten planks (fresh wood)    | `0.35` - `0.42`         |             | `158` - `172`                   |
-| Batten planks (old weathered) | `0.12` - `0.16`         |             | `97` - `111`                    |
-| Varnished wood                | `0.13`                  |             | `101`                           |
-| Bark, oak                     | `0.1`                   |             | `90`                            |
-| **WATER**                     |                         |             |                                 |
-| Ocean Ice                     | `0.56` ( `0.5` - `0.7`) |             |                                 |
-| Water sun near horizon        | `0.5` - `0.8`           |             |                                 |
-| Water sun near zenith         | `0.05`                  |             |                                 |
-| **SKIN**                      |                         |             |                                 |
-| Skin European                 | `0.35` - `0.6`          |             | `158` - `202`                   |
-| Skin Indian                   | `0.15` - `0.3`          |             | `108` - `148`                   |
-| Skin African                  | `0.05` - `0.15`         |             | `65` - `108`                    |
+[A database of physically based values for CG artists](https://physicallybased.info/)
+
+
+| Mat                               | Linear                  | Linear byte | sRGB              | sRGB byte     |
+| --------------------------------- | ----------------------- | ----------- | ----------------- | ------------- |
+| Black                             | `0.013`                 | `5`         | `0.117`           | `30`          |
+| Gray (Zone V)                     | `0.18`                  | `46`        | `0.5`             | `128`         |
+| White                             | `0.893`                 | `229`       | `0.95`            | `249`         |
+|                                   |                         |             |                   |               |
+| Black Paint                       | `0.02` - `0.027`        | `5` - `7`   | `0.169`- `0.195`  | `43` - `50`   |
+| Coal<br>Carbon<br>Asphalt (Fresh) | `0.02` - `0.04`         |             |                   |               |
+| Brright Gray                      | `0.5`                   | 128         | `0.72`            | `186`         |
+| White acrylic paint               | `0.81`                  | 243         |                   | `230`         |
+| Fresh snow                        | `0.90`                  |             | `0.95`            | `240`         |
+|                                   |                         |             |                   |               |
+| **CONCRETE**                      |                         |             |                   |               |
+| Fresh concrete                    | `0.51` - `0.55`         | 192,191,187 | 0.67              |               |
+| Worn asphalt                      | `0.08`- `0.15`          |             | `0.42`            |               |
+| Old Concrete                      | 0.3                     | 135,136,131 | `0.57`            |               |
+| White cement                      | 0.7                     |             | `0.85`            |               |
+|                                   |                         |             |                   |               |
+| **ROCK**                          |                         |             |                   |               |
+| Limestone                         | `0.3` - `0.45`          |             |                   | `148` - `177` |
+| Rock                              | `0.3` - `0.4`           |             |                   | `148` - `168` |
+| **SOIL**                          |                         |             |                   |               |
+| Sand                              | 0.440,0.386,0.231       |             | 0.694,0.655,0.518 | 177,167,132   |
+| Sandy Soil                        | `0.25` - `0.45` Dry     |             |                   | `136` - `177` |
+| Desert sand                       | `0.36`  -` 0.40` Dry    | 177,167,132 | `0.65`            |               |
+| Clay Soil                         | `0.23` - `0.4` Dry      | 137,120,100 |                   | `131` - `168` |
+| Grey soil                         | `0.1`  Wet  `0.3` Dry   |             |                   | `90` - `148`  |
+| Silt loam Soil                    | `0.23` - `0.28` Dry     |             |                   | `131` -`143`  |
+| Bare soil / Dark earth            | `0.13` - `0.17` Dry     |             |                   | `114`         |
+| Yellow Clay                       | `0.16`                  |             |                   | `111`         |
+| Black soil                        | `0.08` Wet  `0.15` Dry  |             |                   | `81` - `108`  |
+|                                   |                         |             |                   |               |
+| **FOLIAGE**                       |                         |             |                   |               |
+| Green grass                       | `0.2` -  `0.25`         |             | `0.53`            | `123` - `136` |
+| Tundra                            | `0.2`                   |             |                   | `123`         |
+| Tall wild grass                   | `0.16` - `0.18`         |             |                   | `111` - `117` |
+| Tea bushes                        | `0.16` - `0.18`         |             |                   | `111` - `117` |
+| Corn field                        | `0.16` - `0.17`         |             |                   | `111` - `114` |
+| Deciduous trees                   | `0.15` - `0.18`         |             |                   | `108` - `117` |
+| Grain crops                       | `0.1` - `0.25`          |             |                   | `90` - `136`  |
+| Moss                              | `0.1`                   |             |                   | `90`          |
+| Summer Foliage                    | `0.09` - `0.12`         |             |                   | `85`          |
+| Autumn foliage                    | `0.15` - `0.3`          |             |                   | `109` -`148`  |
+| Conifer Forest                    | `0.08` - `0.12`         |             |                   | `81`          |
+| Leafs                             | `0.07` Wet  `0.2` Dry   |             |                   | `75` - `123`  |
+|                                   |                         |             |                   |               |
+| **WOOD**                          |                         |             |                   |               |
+| Batten planks <br>(fresh wood)    | `0.35` - `0.42`         |             |                   | `158` - `172` |
+| Batten planks <br>(old weathered) | `0.12` - `0.16`         |             |                   | `97` - `111`  |
+| Varnished wood                    | `0.13`                  |             |                   | `101`         |
+| Bark, oak                         | `0.1`                   |             |                   | `90`          |
+|                                   |                         |             |                   |               |
+| **WATER**                         |                         |             |                   |               |
+| Ocean Ice                         | `0.56` ( `0.5` - `0.7`) |             |                   |               |
+| Water sun horizon                 | `0.5` - `0.8`           |             |                   |               |
+| Water sun zenith                  | `0.05`                  |             |                   |               |
+|                                   |                         |             |                   |               |
+| **SKIN**                          |                         |             |                   |               |
+| Skin European                     | `0.35` - `0.6`          |             |                   | `158` - `202` |
+| Skin Indian                       | `0.15` - `0.3`          |             |                   | `108` - `148` |
+| Skin African                      | `0.05` - `0.15`         |             |                   | `65` - `108`  |
 
 
 
@@ -239,5 +232,21 @@ To use this feature, enable Burley in the Subsurface Profile and set the Editor 
 ### Anisotropy 
 
 ---
+
+
+
+# Specular Workflow 
+
+## Strata 
+
+
+
+|         | F0                                    | f90 |
+| ------- | ------------------------------------- | --- |
+| Plastic | 0.04 most materials default in unreal |     |
+
+
+
+
 
 - metal pure reflection > only refraction (or absorbed [heat]) > only mat that tint reflection  (but saturate with Fresnel)

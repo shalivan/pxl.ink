@@ -14,7 +14,7 @@ aliases:
 ---
 
 
-> Pxlink:
+> Pxlink:  [Color](/color/)  [Modeling](/modeling/)  [Sculpting](/sculpting/) [Modeling_foliage](foliage)
 
 
 {% comment %}

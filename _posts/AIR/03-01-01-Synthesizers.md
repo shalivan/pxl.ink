@@ -11,6 +11,8 @@ tags:
 permalink: /synth/
 ---
 > Pxlink: 
+
+
 >Obsidian:   [[04-01-01-Music | Music]] [[01-01-01-Circuit | Circuit]] [[01-01-01-Keystep | Keystep]] [[01-01-01-Reface | Reface]] [[01-01-01-Ableton | Ableton]]
 
 

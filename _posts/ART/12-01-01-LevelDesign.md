@@ -14,7 +14,13 @@ permalink: /leveldesign/
 aliases:
   - leveldesing
 ---
-> related [[13-01-01-Architecture|arch]] [[12-01-01-Lore|lore]] [[10-01-01-U_World|uworld]]
+ >PxlInk: [[13-01-01-Architecture|arch]] [[12-01-01-Lore|lore]] [[10-01-01-U_World|uworld]]
+ 
+ 
+ {% comment %}
+>Obsidian: 
+
+{% endcomment %}
 
 [Game Design](/gamemechanics/)   
 [Game Mechanics](/gamemechanics/)   
@@ -34,7 +40,6 @@ LD driven by mechanics.
 
 - Control environment instead of camera like in movies.  
 - Contain: aesthetic + functionality
-
 
 
 ##  Constraints & Direction   
