@@ -25,26 +25,34 @@ aliases:
 [Game Design](/gamemechanics/)   
 [Game Mechanics](/gamemechanics/)   
 
+
 # Concept
+
+Control environment instead of camera like in movies.  
+- Contain: **Aesthetic** + **Functionality**. Primary driven by mechanics.
+
+Constrained by:
+- Design constraints
+- Pipeline tools constraints
+
+
+--- 
+
+  - High level: - [Environmental storytelling](/ludology/)
+  - Medium level: - Level Design
+  - Low level: - [World Building / Lore](/lore/)
+ 
+
 - **Show don't tell**
 - **Minimize cognitive load**. to avoid struggle with processing information's . to much details sensory overload.
 - **Readability**  
 - **Form follow function**. Restrictions, goals, context.   
-- **Scale**,** metrics** and **proportions** .  Object with fixed size (car), and without (tree).    
+- **Scale**,** metrics** and **proportions** .  Object with fixed size (car), and without (tree). 
 - Giving the player **depth cues** by  reference.   
 
-LD driven by mechanics.
-  - High level: - [Environmental storytelling](/ludology/)
-  - Medium level: - Level Design
-  - Low level: - [World Building / Lore](/lore/)
-
-- Control environment instead of camera like in movies.  
-- Contain: aesthetic + functionality
 
 
-##  Constraints & Direction   
-- Design constraints
-- Pipeline tools constraints
+--------
 
 
 # Navigation
@@ -156,6 +164,7 @@ Composing 3d to view in 2d (flat monitor) like composition rules
 - players typ spectator go to the edge, traveler to center
 - more comfortable in positive space not so in negative.
 
+- staging key objects 
 ### Spatial empathy
 - twist to confusion
 - open of isolation and epic scale
@@ -223,10 +232,6 @@ Revealing level slowly, in tiers.
 - **Breadcrumbing** -  sending brief and sporadic messages. Trail of something (usually pickups or information) that leads the player in the right direction or towards  
 - **Hints** - Slight or indirect indication or suggestion. (notes on paper, maps, signs)
 
-
-
-
-
 # Combat
 
 Design for multiple options and strategies. viable/intended ranges of the combat space. pieces of cover should be available to the player at the start of combat Preventing teams from being able to spawn camp
@@ -284,10 +289,18 @@ mastery mapy vs nowa mapa .
 - balance
 - asymetry  
 
+----------------
 
 # Visuals
-- Generally more effective when it makes contextual narrative sense  
+
+
+
 - Must be part of gameplay mechanics + Backdrops - non-playable areas
+- Generally more effective when it makes contextual narrative sense  
+
+Design principles (mozliwe ze kopia)
+Shape language / Reinforce scale from big medium to  small   / REpetition Hierarchy Transitions 
+
 
 ELements:
 - Architecture   
