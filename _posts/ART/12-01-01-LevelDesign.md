@@ -25,32 +25,26 @@ aliases:
 
 # Concept
 
-Control environment instead of camera like in movies.  
-- Contain: **Aesthetic** + **Functionality**. Primary driven by mechanics.
+In game design, unlike film where the camera dictates perspective, levels control the environment. **Show don't tell**.  Primarily driven by mechanics, the design must ensure that every environment enhances the gameplay experience 
+Containing:
+- **Functionality** - How spaces serve gameplay mechanics.  
+	- **Form follow function**. Restrictions, goals, context.  - camera / game type 
+- **Aesthetic** - The visual style and atmosphere.
+to form final Player Experience.
+#### Constraints
+Level design doesn't occur in a vacuum but is shaped by:
+- **Design constraints** - Budget, time, thematic consistency. Player Experience Psychology
+- **Pipeline tools constraints** - Capabilities and limitations of development software.
+#### Workflow
+- **High Level**: Environmental Storytelling, Conveys narrative through the environment itself,   [Environmental storytelling](/ludology/)
+- **Medium Level**: The actual architecture of gameplay spaces, focusing on layout, navigation, and interaction.
+- **Low Level**: World Building / Lore - [World Building / Lore](/lore/)
 
-Constrained by:
-- Design constraints
-- Pipeline tools constraints
-
-
---- 
-
-  - High level: - [Environmental storytelling](/ludology/)
-  - Medium level: - Level Design
-  - Low level: - [World Building / Lore](/lore/)
- 
-
-- **Show don't tell**
-- **Minimize cognitive load**. to avoid struggle with processing information's . to much details sensory overload.
-- **Readability**  
-- **Form follow function**. Restrictions, goals, context.   
-- **Scale**,** metrics** and **proportions** .  Object with fixed size (car), and without (tree). 
-- Giving the player **depth cues** by  reference.   
-- Camera dependent 
-- Design dependent - no invisible walls 
 
 
 --------
+# General design 
+
 
 
 # Navigation
@@ -291,6 +285,9 @@ mastery mapy vs nowa mapa .
 # Visuals
 
 
+- **Readability**  
+- **Minimize cognitive load**. to avoid struggle with processing information's . to much details sensory overload.
+- **Scale**, **metrics** and **proportions** .  Object with fixed size (car), and without (tree). Giving the player **depth cues** by  reference.   
 
 - Must be part of gameplay mechanics + Backdrops - non-playable areas
 - Generally more effective when it makes contextual narrative sense  
