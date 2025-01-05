@@ -11,7 +11,7 @@ tags:
   - Niagara
   - RealTime
   - GameDev
-  - NodesGraph
+  - Node
 permalink: /niagara/
 aliases:
   - niagara

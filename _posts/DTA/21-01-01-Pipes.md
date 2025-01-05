@@ -8,7 +8,7 @@ tags:
   - Configs
   - Pipelines
   - Data
-  - NodesGraph
+  - Node
 description: Pipelines
 permalink: /pipes/
 ---

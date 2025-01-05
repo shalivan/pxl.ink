@@ -3,9 +3,9 @@ title: Insta Mat
 categories:
   - DTA
 tags:
-  - NodesGraph
   - 3D
   - Software
+  - Node
 description: .
 permalink: /instamat/
 ---

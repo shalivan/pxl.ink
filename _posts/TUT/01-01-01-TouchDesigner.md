@@ -3,11 +3,11 @@ title: Touch Designer
 categories:
   - HOU
 tags:
-  - NodesGraph
   - 3D
   - Software
   - CG
   - Animation
+  - Node
 description: .
 permalink: /td/
 ---

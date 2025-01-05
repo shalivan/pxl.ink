@@ -9,9 +9,9 @@ tags:
   - Materials
   - Shaders
   - CG
-  - NodesGraph
   - 3D
   - Software
+  - Node
 permalink: /substancedesigner/
 aliases:
   - substancedesigner

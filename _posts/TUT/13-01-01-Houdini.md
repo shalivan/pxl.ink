@@ -7,9 +7,9 @@ tags:
   - Houdini
   - Shortcuts
   - Configs
-  - NodesGraph
   - Software
   - 3D
+  - Node
 description: Configs
 permalink: /houdiniconfigs/
 ---
