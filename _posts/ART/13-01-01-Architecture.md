@@ -17,7 +17,7 @@ aliases:
 
 https://nowoczesnastodola.pl/partnerzy/sunroof/
 
-discavery writing
+discovery writing
 
 # Architecture
 

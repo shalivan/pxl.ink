@@ -14,16 +14,13 @@ permalink: /leveldesign/
 aliases:
   - leveldesing
 ---
- >PxlInk: [[13-01-01-Architecture|arch]] [[12-01-01-Lore|lore]] [[10-01-01-U_World|uworld]]
- 
+
+> Related notes: [Architecture](/arch/) [Unreal World](/uworld/) [Lore](/lore/)  [Lighting](/lighting/)  [Game Design](/gamemechanics/) [Game Mechanics](/gamemechanics/)   
  
  {% comment %}
 >Obsidian: 
 
 {% endcomment %}
-
-[Game Design](/gamemechanics/)   
-[Game Mechanics](/gamemechanics/)   
 
 
 # Concept
@@ -49,7 +46,8 @@ Constrained by:
 - **Form follow function**. Restrictions, goals, context.   
 - **Scale**,** metrics** and **proportions** .  Object with fixed size (car), and without (tree). 
 - Giving the player **depth cues** by  reference.   
-
+- Camera dependent 
+- Design dependent - no invisible walls 
 
 
 --------
@@ -58,7 +56,7 @@ Constrained by:
 # Navigation
 
 ## Intentionality
-Afford present player. Tell what to do but not how to do it.  Typically from a vantage point area where we can survey, orient ourselves  and plan our approach. Linearity feels bad could be caused by week intentionality.
+Afford present player. Tell what to do but not how to do it.  Typically from a vantage point area where we can survey, orient ourselves  and plan our approach. Linearity feels bad could be caused by week intentionality. - what is goal in level 
 
 ##### Players action loop:
 - **Observe** options and goals (Learn) > formulate **Plan**  (Play) > **Act** with intentionality (Challenge) > Reaction (Surprise)
@@ -72,25 +70,24 @@ We can guide player with:
 ##### Paths
 - **Critical path** = The quickest and most direct route to beating the level.
 - **Golden path** = The designers ‘preferred’ route (generic path). It’s the one you expect most players to take and the one which will offer the optimal experience. Hardest to create. 
-
 ##### Circulation
-
+- .
+##### Cel 
+- cele posrednie
+- cel koncowy 
 
 ## Saliency
 **Where to look**  Attention garbing. Control where player and cam look.  
-
 #### Bottom up
 - Contrast, movement  (Stronger in cinema cause we are chilling)
-
 #### Top Down
-- Humans (meaning), NowSilent (We care now) (Stronger in goal/task orient mode) Human faces, people, things associated with our current task/goal (attentional goals).  
+- Humans (meaning), Now Silent (We care now) (Stronger in goal/task orient mode) Human faces, people, things associated with our current task/goal (attentional goals).  
 
 **Attentional goals**  help players notice and pay attention to things  - (which can mean you become more ‘blind’ to other things). a locked gate they might assume the goal forward is to open the gate (even though the solution is to climb out a window).It’s also worth noting that if players are already focused on something else ...
 
-
 ## Affordances
 **Where to go** Possible of potential actions. Provide strong clues to the operations of things. Control what players believe is usable.  
-- **Objects** -  Windows afford to looking through.  Doors for enter, slots for inserting, knobs for turning, buton for press, flips for switch, Machines to use
+- **Objects** -  Windows afford to looking through.  Doors for enter, slots for inserting, knobs for turning, button for press, flips for switch, Machines to use
 - **Surface**  - floor. we walk to affordance surface to walk. along longest sight lights. (or somewhere else if there could be price)
 - **Lights**
 
