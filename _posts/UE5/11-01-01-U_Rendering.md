@@ -14,8 +14,9 @@ permalink: /urendering/
 aliases:
   - urendering
 ---
-> Obsidian: [[09-01-01-U_Optimisation]] [[05-01-01-U_BP]] [[05-01-01-U_Code]]
 
+
+{% comment %}[[09-01-01-U_Optimisation]] [[05-01-01-U_BP]] [[05-01-01-U_Code]] {% endcomment %}
 
 # Project Settings
 - `Suport Sky Atmosphere` &   

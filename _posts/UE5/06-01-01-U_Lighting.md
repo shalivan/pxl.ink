@@ -15,7 +15,10 @@ permalink: /ulight/
 aliases:
   - ulight
 ---
-> Obsidian:  [[19-01-01-Lighting]] [[11-01-01-U_Rendering]] [[16-02-01-Rendering]]
+Related notes: [Lighting](/lighting/), [Light](/light/), [Unreal Rendering](/urendering/)
+
+{% comment %} [[19-01-01-Lighting]] [[11-01-01-U_Rendering]] [[16-02-01-Rendering]] {% endcomment %}
+
 
 Sky is black and the sun is white
 

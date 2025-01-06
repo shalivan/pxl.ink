@@ -11,13 +11,9 @@ permalink: /foliage/
 aliases:
   - foliage
 ---
-> [Color](/color/)  [Modeling](/modeling/)  [Sculpting](/sculpting/) [SpeedTree](speedtree)
+Related notes: [Color](/color/), [Modeling](/modeling/),  [Sculpting](/sculpting/), [Speed Tree](speedtree)
 
-{% comment %}
- >Obsidian: [[21-01-01-Art]]   [[17-01-01-SpeedTree]]  [[17-01-01-Modeling]], [[17-01-01-Modeling_Foliage]]  [[18-01-01-Color]] [[16-01-01-Sculpting]] [[14-01-01-Procedural]] [[08-01-01-Material]]  [[20-01-01-VisualDesign]] [[17-01-01-Paint]]  [[14-01-01-Procedural]]  [[12-01-01-LevelDesign]] 
- 
- 
-{% endcomment %}
+{% comment %} [[21-01-01-Art]]   [[17-01-01-SpeedTree]]  [[17-01-01-Modeling]], [[17-01-01-Modeling_Foliage]]  [[18-01-01-Color]] [[16-01-01-Sculpting]] [[14-01-01-Procedural]] [[08-01-01-Material]]  [[20-01-01-VisualDesign]] [[17-01-01-Paint]]  [[14-01-01-Procedural]]  [[12-01-01-LevelDesign]]  {% endcomment %}
 
 # Vegetation modeling
 

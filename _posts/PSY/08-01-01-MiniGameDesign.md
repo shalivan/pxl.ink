@@ -13,7 +13,7 @@ permalink: /puzzle/
 aliases:
   - puzzle
 ---
-> Pxlink: [Ludology](/ludology/)  [Game Design](/gamedesign/)    [Game Mechanics](/gamemechanics/)    [Game Theory](/gametheory/)   [Level Design](/leveldesign/)  
+Related notes: [Ludology](/ludology/)  [Game Design](/gamedesign/)    [Game Mechanics](/gamemechanics/)    [Game Theory](/gametheory/)   [Level Design](/leveldesign/)  
 
 
 {% comment %}

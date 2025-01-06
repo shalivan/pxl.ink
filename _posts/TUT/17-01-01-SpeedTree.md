@@ -12,14 +12,9 @@ permalink: /speedtree/
 aliases:
   - speedtree
 ---
+Related notes: [Color](/color/), [Modeling](/modeling/), [Sculpting](/sculpting/), [Modeling Foliage](foliage)
 
-
-> Pxlink:  [Color](/color/)  [Modeling](/modeling/)  [Sculpting](/sculpting/) [Modeling_foliage](foliage)
-
-
-{% comment %}
->Obsidian:  [[17-01-01-Modeling]], [[21-01-01-Art]] [[17-01-01-Modeling_Foliage]] [[02-01-01-LSystem]]  [[18-01-01-Color]]  [[14-01-01-Procedural]] [[08-01-01-Material]] 
-{% endcomment %}
+{% comment %} [[17-01-01-Modeling]], [[21-01-01-Art]] [[17-01-01-Modeling_Foliage]] [[02-01-01-LSystem]]  [[18-01-01-Color]]  [[14-01-01-Procedural]] [[08-01-01-Material]] {% endcomment %}
 
 # Speed tree
 

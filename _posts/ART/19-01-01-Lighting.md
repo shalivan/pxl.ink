@@ -10,7 +10,12 @@ permalink: /lighting/
 aliases:
   - lighting
 ---
-> [[05-01-01-Light]]  [[19-01-01-Lighting]]  [[21-01-01-Art]]  [[18-01-01-Color]] [[15-01-01-Shading]]
+Related notes: [Light](/light/), [Unreal Light](/ulight/)
+
+{% comment %} [[05-01-01-Light]]  [[19-01-01-Lighting]]  [[21-01-01-Art]]  [[18-01-01-Color]] [[15-01-01-Shading]] {% endcomment %}
+
+
+
 
 https://hg2dc.com/2022/11/07/question-29/
 

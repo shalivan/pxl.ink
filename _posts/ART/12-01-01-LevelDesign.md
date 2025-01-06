@@ -14,14 +14,9 @@ permalink: /leveldesign/
 aliases:
   - leveldesing
 ---
+Related notes: [Architecture](/arch/), [Unreal World](/uworld/), [Lore](/lore/), [Lighting](/lighting/), [Game Design](/gamemechanics/), [Game Mechanics](/gamemechanics/)   
 
-> Related notes: [Architecture](/arch/) [Unreal World](/uworld/) [Lore](/lore/)  [Lighting](/lighting/)  [Game Design](/gamemechanics/) [Game Mechanics](/gamemechanics/)   
- 
- {% comment %}
->Obsidian: 
-
-{% endcomment %}
-
+{% comment %}{% endcomment %}
 
 # Concept
 
@@ -36,16 +31,22 @@ Level design doesn't occur in a vacuum but is shaped by:
 - **Design constraints** - Budget, time, thematic consistency. Player Experience Psychology
 - **Pipeline tools constraints** - Capabilities and limitations of development software.
 #### Workflow
-- **High Level**: Environmental Storytelling, Conveys narrative through the environment itself,   [Environmental storytelling](/ludology/)
-- **Medium Level**: The actual architecture of gameplay spaces, focusing on layout, navigation, and interaction.
+
 - **Low Level**: World Building / Lore - [World Building / Lore](/lore/)
+- **Medium Level**: The actual architecture of gameplay spaces, focusing on layout, navigation, and interaction.
+- **High Level**: Environmental Storytelling, Conveys narrative through the environment itself,   [Environmental storytelling](/ludology/)
 
-
+Start from graybox - Blockouts,  for fast prototyping, use props for gameplay. 
 
 --------
-# General design 
+- Navigation 
+- Space
+- Interactivity / replayability 
+- Combat 
+(mechanic integration)
 
-
+- Visuals 
+- story teling 
 
 # Navigation
 
@@ -284,6 +285,9 @@ mastery mapy vs nowa mapa .
 
 # Visuals
 
+Story will always help to pop up 
+\
+use game design princiles 
 
 - **Readability**  
 - **Minimize cognitive load**. to avoid struggle with processing information's . to much details sensory overload.
@@ -352,10 +356,6 @@ http://tmdag.com/ptakun/eco_system/makeofplants_en_htm.htm
 [Lore](/lore/)
 
 
-# Pipelines 
-
-## Pipelines
-- Blockouts, and props  
 
 ## Procedural
 [Procedural](/procedural/)

@@ -14,17 +14,13 @@ aliases:
   - matdata
 ---
 
-> Pxlink: [Camera](/camera/)  / [Algebra](/algebra/) /[Rendering](/rendering/) / [Substance Designer](/substancedesigner/) / [[16-02-01-Substance_Designer|substancedesigner]]
+Related notes: [Color](/color/), [Rendering](/rendering/) 
+
+{% comment %} [[DTA]] [[11-01-01-Math]]  / [[15-01-01-Shading]] {% endcomment %}
 
 
-{% comment %}
-> Obsidian: [[DTA]] [[11-01-01-Math]]  / [[15-01-01-Shading]]
-
-{% endcomment %}
-
-
-https://chrisbrejon.com/cg-cinematography/chapter-2-color-theory/
-https://davengrace.com/dave/cspace/
+[Color theory bible](https://chrisbrejon.com/cg-cinematography/chapter-2-color-theory/)
+[Convert colors calculator](https://davengrace.com/dave/cspace/)
 
 
 # Metallic Workflow
@@ -56,9 +52,6 @@ Dielectrics Median luminosity:
 |                                   |                         |             |                   |                              |
 | **ROCK**                          |                         |             |                   |                              |
 | Limestone                         | `0.3` - `0.45`          |             |                   | `148` - `177`                |
-|                                   |                         |             |                   |                              |
-|                                   |                         |             |                   |                              |
-|                                   |                         |             |                   |                              |
 |                                   |                         |             |                   |                              |
 | Rock                              | `0.3` - `0.4`           |             |                   | `148` - `168`                |
 |                                   |                         |             |                   |                              |
@@ -109,12 +102,13 @@ Dielectrics Median luminosity:
 
 
 ## Specular
-**Dielectric F0 Reflectance** Unreal values 0-8%. Default value is .05 (which is 4% reflective)  `Value = ( (1 - IOR) / (1 + IOR) )²` 
+**Dielectric F0 Reflectance** Unreal values 0-8%. Thus default value is .05 (which is 4% reflective)  
+`Value = ( (1 - IOR) / (1 + IOR) )²` 
 Fresnel reflection coefficient mount of light that reflects off a surface when the viewing angle is perpendicular (i.e., the angle of incidence is 0 degrees).
 
 Let the material value in unreal be default 0.5 and multiply by a cavity map to darken cavities.
 
-specular reflectance values (denoted as "F0") pecular reflectance refers to the amount of light reflected at a particular angle from a surface.
+specular reflectance values (denoted as "F0") specular reflectance refers to the amount of light reflected at a particular angle from a surface.
 
 Wood  - 0.02 to 0.05 
 natural stones like granite or marble, the F0 value can range from 0.02 to 0.05.
