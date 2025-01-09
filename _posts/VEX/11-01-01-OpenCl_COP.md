@@ -73,3 +73,8 @@ value = sin((value+Time)*45)   // need to include time in block
 	{@dist.set(@src)} 
 }
 ```
+
+
+
+
+http://www.dmi.unict.it/~bilotta/gpgpu/notes/11-opencl.html
