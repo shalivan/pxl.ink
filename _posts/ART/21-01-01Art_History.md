@@ -15,36 +15,65 @@ aliases:
 Modern -pure  essence and form 
 pre-Modern - classical values often religion 
 
+
+
+---
+
+**Homo Erectus**
+- **2,000,000** to **250,000** years BCE: Development of Acheulian stone axes, a major leap in tool-making.
+
+---
+
 # Antiquity
 
-## Homo Erectus
-`2 000 000` -`250 000` - Acheulian stone axes
+#### Cognitive Revolution
+- **100,000** BCE: Emergence of complex thinking, including "If > And > Then" logic. This jump in cognition led to:
+    - **Empathy**:
+        - _Cognitive empathy_: Ability to understand someone’s intentions.
+        - _Affective empathy_: Emotional response to others' thoughts and feelings.
+    - **Cooperation and teaching**: Essential for societal development.
+    - **Self-reflection**: Introspection and planning.
+    - **Referential communication**: Sharing specific information.
 
-## Cognitive revolution
- `100 000` - Jump in inventions. If > And > Then logic
+---
+#### First Artworks
+**First Paintings**
+- **40,000** BCE:
+    - Earliest cave paintings.
+    - Creation of the first musical instrument (flute from bird bone).
+    - Early adornments like necklaces.
+**First Sculptures**
+- **25,000** BCE:
+    - Venus figurines and other early sculptures.
+    - Development of needles (circa 23,000 years ago), aiding in clothing creation.
 
-Empathy
-- Cognitive. take of someone intentions
-- Affected. Emotional response to somebody thoughts nad feelings
- Cooperation, teaching, self reflection, referential communication 
+---
+#### Agricultural Revolution
+- **12,000** BCE: Transition from hunting-gathering to farming. Key innovations include:
+    - Domestication of plants and animals. key crops (wheat, barley, rice, maize) and animals (sheep, goats, cattle).
+    - Development of permanent settlements. irrigation systems for agriculture.
+    - Surplus production allows specialization: potters, weavers, traders, and leaders.
 
-## First Paintings
-`40 000` - 
- - first flute from bird bone
- - neckless
- - first paintings
+-  **7,000–5,000** BCE
+    - **South Asia** (Indus Valley and surrounding areas): Domestication of rice and millet.
+    - **China** (Yellow and Yangtze River Valleys): Cultivation of millet and rice.
+    - **Africa** (Nile Valley and Sub-Saharan regions): Domestication of sorghum, yams, and teff.
+- **7,000–4,000 years ago (5,000–2,000 BCE)**
+    - **Europe**: Agriculture spreads from the Fertile Crescent to southern and central Europe.
+    - **Mesoamerica** (Mexico and Central America): Domestication of maize (corn), beans, and squash.
+    - **South America**: Domestication of potatoes, quinoa, and llamas.
+- _Jericho_ (circa 9,000 BCE): One of the earliest known settlements, with defensive walls.
+- _Çatalhöyük_ (circa 7,500 BCE): A large Neolithic settlement featuring art and religion.
 
-### First Sculptures
-`25 000` -
-needles (23)
 
-## Agriculture
-`13 000` - 
+#### Bronze Age (~3,000 BCE - ~1,200 BCE)
+#### Iron Age (~1,200 BCE - ~500 CE)
 
 
 ---
 
 # Classical Period (late 500s BCE to late 400s CE) 1000 years
+
 
 
 

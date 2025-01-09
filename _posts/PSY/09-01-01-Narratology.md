@@ -14,7 +14,8 @@ permalink: /narratology/
 aliases:
   - narratology
 ---
-> Pxlink:  
+
+
 >Obsidian:   [Ludology](/ludology/)  / [[09-01-01-Ludology|ludology]]  [Game Design](/gamedesign/)    / [[08-01-01-GameDesign|gamedesign]]  [Lore](/lore/)  / [[12-01-01-Lore|lore]]
 
 
@@ -44,6 +45,20 @@ Facts presented as story that is familiar to us we verry likely to accept it on 
 **Poetry**: Focused on lyrical expression (lyrical subject). 
 **Drama**: Presented on stage (characters). Includes comedy, tragedy, drama. 
 **Fiction/Nonfiction**: Narrative-driven (narrator). Examples: novella, short story, novel, fable, epic, parable.
+
+
+Fantasy:
+nostalgic for world that never was. fromed somehow in romanticism. 
+- World - magical 
+- language ? - usage of words and concepts - word 'Ok' is modern, like more sex
+- Morality  - Evil is evil is mythological > read like a dream - symbol of putting world in the balance 
+- no influence of socio political logic of current discurse. 
+world is symbolic to theri psychology 
+
+contemporary vs mythological leaning 
+
+road grom profain to the sacred https://youtu.be/pq-HDpqQeSw
+
 
 ### Subgenres:
 
@@ -794,3 +809,13 @@ excitement of the mystery - invitation to wander make us tick.
 .
 
 narrativizing information. there is story behind data banks (not only informative)- hard.   
+
+
+
+# Interpretations
+Working with existing text 
+
+- Re-adaptation - attempt to faithfully reproduce the original text 
+- Homages - Value original and subordinate to it their own textual claims 
+- Updates - Critically or ironically revise 
+- True remake 
