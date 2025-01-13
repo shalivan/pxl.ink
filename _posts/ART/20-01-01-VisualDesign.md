@@ -10,8 +10,10 @@ permalink: /graphicdesign/
 aliases:
   - graphicdesign
 ---
-> Pxlink: [Composition Camera](/camera/)  [Color](/color/)  [Modeling](/modeling/)  [Sculpting](/sculpting/)    [Characters](/characters/)  [Lighting](/lighting/)   [Perception](/perception/)
->Obsidian:  [[21-01-01-Art]] [[17-01-01-Modeling]], [[21-01-01-Art]] [[17-01-01-Modeling_Foliage]]  [[18-01-01-Color]] [[16-01-01-Sculpting]] [[14-01-01-Procedural]]  [[17-01-01-Paint|paint]] [[16-01-01-VFX|vfx]] [[14-01-01-Procedural]] [[12-01-01-LevelDesign]] [[11-01-01-Characters]] [[05-01-01-U_Animation]] [[05-01-01-Camera]]  [[20-01-01-Perception]]
+Related notes:  [Composition Camera](/camera/)  [Color](/color/)  [Modeling](/modeling/)  [Sculpting](/sculpting/)    [Characters](/characters/)  [Lighting](/lighting/)   [Perception](/perception/)
+ 
+ {% comment %}  [[21-01-01-Art]] [[17-01-01-Modeling]], [[21-01-01-Art]] [[17-01-01-Modeling_Foliage]]  [[18-01-01-Color]] [[16-01-01-Sculpting]] [[14-01-01-Procedural]]  [[17-01-01-Paint|paint]] [[16-01-01-VFX|vfx]] [[14-01-01-Procedural]] [[12-01-01-LevelDesign]] [[11-01-01-Characters]] [[05-01-01-U_Animation]] [[05-01-01-Camera]]  [[20-01-01-Perception]]  {% endcomment %}
+
 
 # Visual Design 
 Organize for perception
@@ -24,17 +26,17 @@ Organize for perception
 
 # Elements
 
-|  | Design Elements |  |  |  |
-| ---- | ---- | ---- | ---- | ---- |
-| ![](/src/gestalt/point.png) | **Point** | 1D |  |  |
-| ![](/src/gestalt/line.png) | **Line** | 2D | Shape dynamic, Variations, Single stroke |  |
-| ![](/src/gestalt/shape.png) | **Shape** | 2D | Geometric, Organic<br> | Perception of shape depend on contrast |
-| ![](/src/gestalt/simplicitysmall.png) | **Form** | 3D | Circular (friendly) vs Jagged (danger) |  |
-| ![](/src/gestalt/space.png) | **Space** |  | Vertical (powerful), Horizontal (stability),  Negative |  |
-| ![](/src/gestalt/color.png) | [Color](/color/) | Hue |  |  |
-| ![](/src/gestalt/value.png) | **Value** | Level of lightness | Build by adding or subtracting lightness |  |
-| ![](/src/gestalt/empty.png) | **Texture** |  | Properties of material. |  |
-| ![](/src/gestalt/a.png) | **Typo** | Typography | Serif, Sans Serif, Script, Monospaced, Display |  |
+|                                       | Design Elements  |                    |                                                        |                                        |
+| ------------------------------------- | ---------------- | ------------------ | ------------------------------------------------------ | -------------------------------------- |
+| ![](/src/gestalt/point.png)           | **Point**        | 1D                 |                                                        |                                        |
+| ![](/src/gestalt/line.png)            | **Line**         | 2D                 | Shape dynamic, Variations, Single stroke               |                                        |
+| ![](/src/gestalt/shape.png)           | **Shape**        | 2D                 | Geometric, Organic<br>                                 | Perception of shape depend on contrast |
+| ![](/src/gestalt/simplicitysmall.png) | **Form**         | 3D                 | Circular (friendly) vs Jagged (danger)                 |                                        |
+| ![](/src/gestalt/space.png)           | **Space**        |                    | Vertical (powerful), Horizontal (stability),  Negative |                                        |
+| ![](/src/gestalt/color.png)           | [Color](/color/) | Hue                |                                                        |                                        |
+| ![](/src/gestalt/value.png)           | **Value**        | Level of lightness | Build by adding or subtracting lightness               |                                        |
+| ![](/src/gestalt/empty.png)           | **Texture**      |                    | Properties of material.                                |                                        |
+| ![](/src/gestalt/a.png)               | **Typo**         | Typography         | Serif, Sans Serif, Script, Monospaced, Display         |                                        |
 
 
 # Principles
@@ -315,7 +317,7 @@ Triangle of Representation -lends a non-linear sliding scale of representation t
 
 # Typography
 
-
+[Atypography - Art Movement Introduction](https://youtu.be/I65oL91O_aM )
 #### History 
 
 pictagrams > abstracted > `cuneiform`(graphic symbols depictive things) > `hieroglyphs` (from ancient Egypt) > > > `Greek lapidary letters` (more abstract 22 letters ancient Greece's first use of letter orms) >> 
@@ -364,7 +366,7 @@ https://www.playforthoughts.com/blog/how-to-design-a-logo-from-scratch-ultimate-
 
 ### Typefaces (fonts)
 Font have size and regular/italic
-
+https://www.luzi-type.ch/notes-pairing
 
 ---
 
