@@ -13,7 +13,8 @@ Related notes:
  {% comment %}  [[21-01-01-Art]]  {% endcomment %}
 
 
-# Homo Erectus
+# Humanity
+## Homo Erectus
 - **2,000,000** to **250,000** years BCE: Development of Acheulian stone axes, a major leap in tool-making.
 
 # Antiquity
