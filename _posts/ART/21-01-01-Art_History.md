@@ -9,24 +9,16 @@ permalink: /arthistory2/
 aliases:
   - arthistory2
 ---
-> [[21-01-01-Art]] 
+Related notes:  
+ {% comment %}  [[21-01-01-Art]]  {% endcomment %}
 
 
-Modern -pure  essence and form 
-pre-Modern - classical values often religion 
-
-
-
----
-
-**Homo Erectus**
+# Homo Erectus
 - **2,000,000** to **250,000** years BCE: Development of Acheulian stone axes, a major leap in tool-making.
-
----
 
 # Antiquity
 
-#### Cognitive Revolution
+## Cognitive Revolution
 - **100,000** BCE: Emergence of complex thinking, including "If > And > Then" logic. This jump in cognition led to:
     - **Empathy**:
         - _Cognitive empathy_: Ability to understand someone’s intentions.
@@ -36,7 +28,7 @@ pre-Modern - classical values often religion
     - **Referential communication**: Sharing specific information.
 
 ---
-#### First Artworks
+## First Artworks
 **First Paintings**
 - **40,000** BCE:
     - Earliest cave paintings.
@@ -48,7 +40,7 @@ pre-Modern - classical values often religion
     - Development of needles (circa 23,000 years ago), aiding in clothing creation.
 
 ---
-#### Agricultural Revolution
+## Agricultural Revolution
 - **12,000** BCE: Transition from hunting-gathering to farming. Key innovations include:
     - Domestication of plants and animals. key crops (wheat, barley, rice, maize) and animals (sheep, goats, cattle).
     - Development of permanent settlements. irrigation systems for agriculture.
@@ -65,9 +57,13 @@ pre-Modern - classical values often religion
 - _Jericho_ (circa 9,000 BCE): One of the earliest known settlements, with defensive walls.
 - _Çatalhöyük_ (circa 7,500 BCE): A large Neolithic settlement featuring art and religion.
 
+---
 
-#### Bronze Age (~3,000 BCE - ~1,200 BCE)
-#### Iron Age (~1,200 BCE - ~500 CE)
+## Bronze Age 
+(~3,000 BCE - ~1,200 BCE)
+## Iron Age
+(~1,200 BCE - ~500 CE)
+
 
 
 - **Latin (Greece and Rome):** Classical Antiquity (6th century BCE - 5th century CE).
@@ -77,7 +73,9 @@ pre-Modern - classical values often religion
 - **Arabian:** Rise of Islam (7th century CE) and subsequent caliphates (8th - 13th centuries CE).
 - **Turanian (Turkey and Central Asia):** Early medieval period with Turkic empires and nomadic conquests (6th - 15th centuries CE).
 - **Byzantine (Germany/Eastern Europe):** Late Antiquity through the Middle Ages (4th - 15th centuries CE).
-### Cultural and Civilizational Paradigms:
+
+```
+## Cultural and Civilizational Paradigms:
 
 1. **Latin (Western Europe - Greece and Rome)**
     
@@ -116,18 +114,23 @@ pre-Modern - classical values often religion
     - Individuals display passivity in state matters, prioritizing collective harmony over personal initiative.
     - Governance aligns with Confucian values, emphasizing order and familial loyalty over political activism.
 
+```
 
 
 ---
 
-# Classical Period (late 500s BCE to late 400s CE) 1000 years
+# Classical Period 
+(late 500s BCE to late 400s CE) 1000 years
+
+
 
 
 
 
 ---
 
-# Medieval Period (early 500s to late 1300s) 800 years 
+# Medieval Period 
+(early 500s to late 1300s) 800 years 
 
 ## Gothic
 `1100` - for "Barbaric", and was therefore used pejoratively. Its critics saw this type of Medieval art as unrefined and too remote from the aesthetic proportions and shapes of Classical art.
@@ -145,7 +148,8 @@ https://en.wikipedia.org/wiki/Gothic_art
 
 ---
 
-# Renaissance (late 1300s to early 1600s) 300 years
+# Renaissance 
+(late 1300s to early 1600s) 300 years
 
 ## Renaissance
 `1300` ~`1450`+ -  "Rebirth" (revise of ancient roman civilization). Fuse Greco-Roman (naturalism , idealism) reinvention into Christianity - rebirth of Classicism.
@@ -194,13 +198,18 @@ Classicism - (naturalism , idealism)
 
 ---
 
-# Romantic Period (late 1700s to late 1800s) 100 years
+# Romantic Period 
+(late 1700s to late 1800s) 100 years
 
 
 ---
 
-# Modernist Period (late 1800s to mid 1900s)  75 years 
+# Modernist Period 
+(late 1800s to mid 1900s)  75 years 
 19 and early 20 cent 
+
+Modern -pure  essence and form 
+pre-Modern - classical values often religion 
 
 
 Modern authors: 
@@ -214,7 +223,8 @@ Modernist painters:
 
 ---
 
-# Postmodernist Period (~1950s to early 2000s) 40 years 
+# Postmodernist Period 
+(~1950s to early 2000s) 40 years 
 
 `1950` -`1960` Postmodernism
 
