@@ -9,7 +9,7 @@ permalink: /arthistory2/
 aliases:
   - arthistory2
 ---
-Related notes:  
+Related notes:    [Art](/art/)  
  {% comment %}  [[21-01-01-Art]]  {% endcomment %}
 
 

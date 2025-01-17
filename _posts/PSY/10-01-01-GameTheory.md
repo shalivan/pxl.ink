@@ -14,9 +14,9 @@ permalink: /gametheory/
 aliases:
   - gametheory
 ---
-[[19-01-01-Cognition|cognition]]
-[[13-01-01-Motivation|motivation]]
+[[19-01-01-Cognition|cognition]], [[13-01-01-Motivation|motivation]]
 
+John Von Neumann -create game theory.  Theory of game and economic behaviour 
 
 [W co grają ludzie - Berne Eric](https://www.empik.com/w-co-graja-ludzie-berne-eric,42565,ksiazka-p)
 Influence book 

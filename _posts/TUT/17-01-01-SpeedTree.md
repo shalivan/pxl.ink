@@ -12,7 +12,7 @@ permalink: /speedtree/
 aliases:
   - speedtree
 ---
-Related notes: [Color](/color/), [Modeling](/modeling/), [Sculpting](/sculpting/), [Modeling Foliage](foliage)
+Related notes:  [Modeling Foliage](foliage), [Sculpting](/sculpting/), [Modeling](/modeling/), [Color](/color/) 
 
 {% comment %} [[17-01-01-Modeling]], [[21-01-01-Art]] [[17-01-01-Modeling_Foliage]] [[02-01-01-LSystem]]  [[18-01-01-Color]]  [[14-01-01-Procedural]] [[08-01-01-Material]] {% endcomment %}
 
@@ -25,8 +25,8 @@ Related notes: [Color](/color/), [Modeling](/modeling/), [Sculpting](/sculpting/
 You can construct tree procedurally to make an advantage of generators randomization 
 
 edit modes: 
-- Generator  - edit all instances
-- Node - edit single branch  “Clear Node Edits” option in the menu when you right-click a generator in the 
+- **Generator**  - edit all instances
+- **Node** - edit single branch  “Clear Node Edits” option in the menu when you right-click a generator in the 
 
 parameters:
 - **[+-]** - Variance. help with seed randomization    
