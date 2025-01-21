@@ -16,6 +16,7 @@ aliases:
 > Pxlink: [Ludology](/ludology/)  [Game Design](/gamedesign/)    [Game Mechanics](/gamemechanics/)    [Game Theory](/gametheory/)   [Level Design](/leveldesign/)  
 >Obsidian: [[08-01-01-GameDesign]]  [[10-01-01-GameTheory]]   [[Classic_Mechanics]]  [[05-01-01-MechanicsSingle]] [[09-01-01-Ludology]] [[10-01-01-GameTheory]]  [[12-01-01-Lore]]
 
+
 Mechanics vs Design?
 Story Symbol Idea Slogan Surprise 
 
@@ -24,6 +25,14 @@ in games:
 mission 
 relation 
 experience 
+
+
+push  pull 
+risk reward 
+stress reliefe 
+https://www.youtube.com/watch?v=TYh5SJb5gWk&list=PLgKCjZ2WsVLScUWJZ7ppkHGlCUIXEj5Io&index=2
+
+
 
 
 https://www.psychologyofgames.com/2011/03/the-unit-effect-and-player-perceptions/
