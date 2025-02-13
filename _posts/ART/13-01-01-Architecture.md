@@ -13,7 +13,10 @@ permalink: /arch/
 aliases:
   - arch
 ---
-> [[21-01-01-Art]] 
+Related notes: 
+
+ {% comment %}  [[17-01-01-Modeling]]  {% endcomment %}
+
 
 https://nowoczesnastodola.pl/partnerzy/sunroof/
 
@@ -30,7 +33,6 @@ Architecture
 - **Firmitas** (firmness) - Structural integrity, durability, construction quality
 - **Utilitas** (commodity) - Functional adequacy, usefulness, satisfies programmatic requirements
 
-
 # Form
 Point of contact between mass and space. (formal language create forms)
 - **Forms** -  (space, structure), **Objects** with attributes:
@@ -41,35 +43,30 @@ Point of contact between mass and space. (formal language create forms)
   - location = position + orientation
 
 
-
-
-|  |  |  |
-| ---- | ---- | ---- |
-| <img src="/src/arch/arch_v1.0010.png" width="100"> | Additive | picturesque, full of movement, |
-|<img src="/src/arch/arch_v1.0011.png" width="100">  |Subtractive   | generous, When regular form missing volume peart but retain identity
-
+|                                         |             |                                                                      |
+| --------------------------------------- | ----------- | -------------------------------------------------------------------- |
+| ![ \| 200](/src/arch/arch_v1.0010.png ) | Additive    | picturesque, full of movement,                                       |
+| ![ \| 200](/src/arch/arch_v1.0011.png ) | Subtractive | generous, When regular form missing volume peart but retain identity |
 
 
 - Form in architecture is consumed from related perspective.   
 - Articulation = how elements relate (corners)  
 - **Impossible Figure** - M.C. Escher - bending space  in 2d
 
-
-
 # Space
  Space is formed by relationship to object within. Literal space defines the scene by Degree of enclosure.
 
 ## Enclosure
 
- |  |  |Enclosure Spaces|
- |--|--| --|
- <img src="/src/arch/arch_v1.0001.png" width="100"> | `Floor` | Topology / Architecture,  Man made / Natural, Unmodulated / Modulated, Ground stability
- <img src="/src/arch/arch_v1.0002.png" width="100">  |`Columns` | `Obelisk`, `Column` (Europeans order), `Pier`, `Pilaster`. (Rhythm > directionality) (forming subspaces, fasades)
- <img src="/src/arch/arch_v1.0003.png" width="100"> |`Walls` |
- <img src="/src/arch/arch_v1.0004.png" width="100">  |`Doors` | `Portal`, `Gates`, `Jamb` (framuga - transfer load, somt statues) Point of access, Threshold, Guide to movement - determine the direction and scheme of circulation within room
- <img src="/src/arch/arch_v1.0005.png" width="100">  |`Windows` | `Roseta`, Air, Light, View, modulation of facade, as scaling element
- <img src="/src/arch/arch_v1.0007.png" width="100">  |`Staircase` | As step, As seat, Physical link, Storage, `Escalator` `Ladder` `Ramp` `Elevator` Straight, Spiral
- <img src="/src/arch/arch_v1.0006.png" width="100">  |`Roofs` | Spatial Enclosure, Volume modulator. Folded, Curved, Membrane, Frame
+|                                         |             | Enclosure Spaces                                                                                                                                                                |
+| --------------------------------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![ \| 200](/src/arch/arch_v1.0001.png ) | `Floor`     | Topology / Architecture,  Man made / Natural, Unmodulated / Modulated, Ground stability                                                                                         |
+| ![ \| 200](/src/arch/arch_v1.0002.png ) | `Columns`   | `Obelisk`, `Column` (Europeans order), `Pier`, `Pilaster`. (Rhythm > directionality) (forming subspaces, fasades)                                                               |
+| ![ \| 200](/src/arch/arch_v1.0003.png ) | `Walls`     |                                                                                                                                                                                 |
+| ![ \| 200](/src/arch/arch_v1.0004.png ) | `Doors`     | `Portal`, `Gates`, `Jamb` (framuga - transfer load, somt statues) Point of access, Threshold, Guide to movement - determine the direction and scheme of circulation within room |
+| ![ \| 200](/src/arch/arch_v1.0005.png ) | `Windows`   | `Roseta`, Air, Light, View, modulation of facade, as scaling element                                                                                                            |
+| ![ \| 200](/src/arch/arch_v1.0007.png ) | `Staircase` | As step, As seat, Physical link, Storage, `Escalator` `Ladder` `Ramp` `Elevator` Straight, Spiral                                                                               |
+| ![ \| 200](/src/arch/arch_v1.0006.png ) | `Roofs`     | Spatial Enclosure, Volume modulator. Folded, Curved, Membrane, Frame                                                                                                            |
 
 `Veranda`, `Terrace`, `Patio`, `Potch`, `Goyer`, `Lobby`, `Vestibule`, `Antresola`, `Balcony`, `Portico`, `Anteroom`, `Gallery`
 
@@ -79,18 +76,19 @@ Point of contact between mass and space. (formal language create forms)
 
 - Positive/ Negative - well defined, organized focal point, comfortable / leftover, uncomfortable  ???? check it
 
-| | ||
-|--|--|--|
- <img src="/src/arch/arch_v1.0009.png" width="100"> |Negative | Negative space, in art, is the space around and between the subject(s)
+|                                         |         |                                                                        |
+| --------------------------------------- | ------- | ---------------------------------------------------------------------- |
+| ![ \| 200](/src/arch/arch_v1.0009.png ) | `Court` | Negative space, in art, is the space around and between the subject(s) |
 
-`Court`
+
+
 
 
 ## Implied  Space
 
-| | ||
-|--|--|--|
- <img src="/src/arch/arch_v1.0008.png" width="100">  |Implied|When elements or spaces are not explicit but are nonetheless apparent. Perspective in 2d is implied
+|                                         |         |                                                                                                     |
+| --------------------------------------- | ------- | --------------------------------------------------------------------------------------------------- |
+| ![ \| 200](/src/arch/arch_v1.0008.png ) | Implied | When elements or spaces are not explicit but are nonetheless apparent. Perspective in 2d is implied |
 
 Implied by: Shadow (shadow space), Half-Roofing, Platform, Stairs, Open colonnade  
 
@@ -107,31 +105,18 @@ is both the physical and material solid-stuff of the built environment and its v
 - **Pace** - change frequency over time by density over space (close spacing make illusion of fast movement) Repetition and Rhythm
 
 
-| | |
-|--|--|
-|Centralized  
-|Linear |(corridor with rooms)
-|Radial | Panopticon (round prison)
-|Clustered | Hub
-|Grid | Organization
-|Asymmetry | Irregular
-
-
-
-
 ##### Relationship
-
 
 
 Space-space relations
 
-| | ||
-|--|--|--|
-<img src="/src/arch/arch_v1.0015.png" width="100">  | Links | corridors
-<img src="/src/arch/arch_v1.0012.png" width="100">  | Space within other space|
-<img src="/src/arch/arch_v1.0013.png" width="100"> | Interlocking  |(shared by 2 spaces)
-<img src="/src/arch/arch_v1.0014.png" width="100">  |Edge / Face contact |
-<img src="/src/arch/arch_v1.0016.png" width="100">   |Spatial tension|
+|                                       |                          |                      |
+| ------------------------------------- | ------------------------ | -------------------- |
+| ![ \|200](/src/arch/arch_v1.0015.png) | Links                    | corridors            |
+| ![ \|200](/src/arch/arch_v1.0016.png) | Space within other space |                      |
+| ![ \|200](/src/arch/arch_v1.0013.png) | Interlocking             | (shared by 2 spaces) |
+| ![ \|200](/src/arch/arch_v1.0014.png) | Edge / Face contact      |                      |
+| ![ \|200](/src/arch/arch_v1.0016.png) | Spatial tension          |                      |
 
 
 
@@ -162,13 +147,13 @@ Arrivals -  experience of reaching an important gameplay space
 
 #### Proportions
 
-| . | | |
-|--|--|--|
-<img src="/src/arch/arch_v1.0016B.png" width="100">  | 1:6 | (more is not comfortable) perceivable maximum spatial enclosure by recess line on right side (larger dist is not a refuge)
-<img src="/src/arch/arch_v1.0017.png" width="100">  | 1:3 | best for squares
-<img src="/src/arch/arch_v1.0018.png" width="100"> | 1:2  | spatial enclousuure by building height
-<img src="/src/arch/arch_v1.0019.png" width="100">  | 1:1  |  best for thoroughfares
-
+|                                        |     |                                                                                                                            |
+| -------------------------------------- | --- | -------------------------------------------------------------------------------------------------------------------------- |
+| ![ \|200](/src/arch/arch_v1.0016B.png) | 1:6 | (more is not comfortable) perceivable maximum spatial enclosure by recess line on right side (larger dist is not a refuge) |
+| ![ \|200](/src/arch/arch_v1.0017.png)  | 1:3 | best for squares                                                                                                           |
+| ![ \|200](/src/arch/arch_v1.0018.png)  | 1:2 | spatial enclousuure by building height                                                                                     |
+| ![ \|200](/src/arch/arch_v1.0019.png)  | 1:1 | best for thoroughfares                                                                                                     |
+ 
 
 #### Układy
 

@@ -156,13 +156,13 @@ Beliefs > Golas > Options > Commitment > Plans > Actrions > Beliefs
 
 
 
- | |System 1|System 2|
- |---|---|---|
- ||Fast|Slow
- ||Impulses |Voluntary actions
- ||Routine|Self control
- ||Effortless choice|Capable of work with data
- ||Intuitions|Believes
+| System 1          | System 2                  |
+| ----------------- | ------------------------- |
+| Fast              | Slow                      |
+| Impulses          | Voluntary actions         |
+| Routine           | Self control              |
+| Effortless choice | Capable of work with data |
+| Intuitions        | Believes                  |
 
 
 

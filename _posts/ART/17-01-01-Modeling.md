@@ -11,7 +11,7 @@ permalink: /modeling/
 aliases:
   - modeling
 ---
-  
+Related notes:  [[21-01-01-Art]] 
  {% comment %} [[17-01-01-Modeling_Foliage]]  [[16-01-01-Sculpting]] [[21-01-01-Art]] {% endcomment %}
 
 
