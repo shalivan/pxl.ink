@@ -166,6 +166,9 @@ If you need to design something in a similar style, reverse engineering lets you
 
 # References
 
+elevated fantasy - contradiction. Fantasy or contemporary. 
+
+
  Things not working from memory. Its crucial therefore we need references.
 
  | . | |  |

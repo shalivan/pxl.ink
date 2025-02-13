@@ -13,25 +13,48 @@ permalink: /perception/
 aliases:
   - perception
 ---
+
+Related notes: 
+
+ {% comment %}  [[19-01-01-Cognition]] [[20-01-01-Perception]]  [[18-01-Conciousness]]  [[15-01-01-Personality]]  [[13-01-01-Motivation]]  {% endcomment %}
+
+
+```
+
 Symbolic creatiures / story telling creatures 
 
 [[19-01-01-Cognition|cognition]]
 [[13-01-01-Motivation|motivation]]
-
-# Sensation and Perception
-
-perception is reality with limited information.
-
-http://consc.net/papers/c-and-c.html
-
-perception is ambiguous bistable
+```
 
 
+# Perception
 
-- **Perception** is the interface between external events and sensory receptors.  
-- [Cognition](/cognition/) is the transformation of sensory data into concepts.  ((information sorting) and requires at the very least, short term memory.)  
-- **Consciousness** is the (conflictual) interaction between the most elaborate concepts, which are the images of oneself and the world.  
-ability to simulate other systems within itself.
+**Sensation:**  -  receive stimuli from the environment.
+The process by which our sensory receptors (e.g., in the eyes, ears, skin) receive stimuli from the environment. This involves converting physical energy (light, sound, pressure) into neural signals—a process called transduction.
+
+**Perception:**  -  immediate sensory input.
+The process of organizing and interpreting sensory input to represent the external world. - Reading reality with limited information. This involves integrating sensory information with prior knowledge, expectations, and context.
+
+**Cognition:**  -  higher-level processing of that input.
+The broader mental processing that transforms sensory data (information sorting) into thoughts, concepts, and decisions, encompassing memory, reasoning, and problem-solving. minimum requires short-term memory. This transformation lays the groundwork for constructing our experiential reality.
+
+**Consciousness:**  - subjective experience and self-awareness of these processes
+The state of being aware of and able to reflect on one’s internal and external experiences, integrating perception and cognition into subjective awareness. ability to simulate other systems within itself.
+
+a feedback loop that enables the recognition of our own motivations. Before self-awareness develops, every organism functions as a product of natural (or man-made) motivations aimed at survival and reproduction, right down to the molecular level.
+
+Selective attention, illustrated by phenomena such as the cocktail party effect, shows how we focus on particular stimuli amid a noisy environment.
+
+
+```
+
+Neural organization is discontinuous, with each discontinuity maintaining relative independence. These independent modules prevent the mental process from descending into complete chaos.
+
+Higher consciousness is the ability to simulate the cognitive system within itself—
+
+
+
 
 There are discontinuities in the process of neural organization, but they are in much larger number than these 3 steps. Each discontinuity has relative organizational independence. This is what prevents the mental process from being completely chaotic.
 
@@ -40,46 +63,39 @@ There are discontinuities in the process of neural organization, but they are in
 
 Every living thing before self awareness, is a pure product of natural (or man made) motivations stemming from the need to reproduce in order to survive, down to a molecular level, all the way back to single cell organisms.
 
+Connect Biological and Psychological Perspectives:
+```
 
 
 # Reaction Time
 
-| | average reaction time |
-|---|---|
-0.25 | visuals (160ms - 340ms) (0.4s for: Go/NoGo reaction for AI)
-0.17 | audio
-0.15 | touch stimulation is fastest
+| (s) time             | average reaction time                |
+| -------------------- | ------------------------------------ |
+| 0.15                 | Touch stimulation is fastest         |
+| 0.17                 | Audio                                |
+| 0.25 (160ms - 340ms) | Visuals                              |
+| 0.4s                 | Visuals for: Go/NoGo reaction for AI |
 
 
 
-# Visual Perception
-
-## Human Vision
-
-| | |
-|---|---|
-15 x 2 | preferred viewing area 30 (left + right)  
-25 x 2 | immediate field o f view (max eye movement)  
-60 x 2 | head rotation  (console games)  
-95 x 2 | head & eyes  (max viewing area)   
+# Examine Theoretical Frameworks and Models
 
 
-## Sound perception
-mcgurk effect
+## Signal Detection Theory
 
+Explains how we distinguish between actual stimuli and noise, incorporating factors like sensitivity and decision-making.
 
 ## Gestalt Principles
 
 
-| |Principle |   |
-| - | - |- |
-|<img src="/src/gestalt/gestprinc_v1.0003.png" width="100">  |Emergence | **Complex pictures from simple pattern**
-|<img src="/src/gestalt/gestprinc_v1.0001.png" width="100"> |Reification |  **Illusory continuity** constructive or generative aspect of perception
-|<img src="/src/gestalt/gestprinc_v1.0002.png" width="100"> |Multistability | **Figure-Ground**,  pop back and forth unstably between two or more alternative interpretations     
-|<img src="/src/gestalt/gestprinc_v1.0004.png" width="100">|Invariance | **Objects recognition** is  independent of rotation, elastic deformations, light, component features
+|                                                            | Principle      |                                                                                                      |
+| ---------------------------------------------------------- | -------------- | ---------------------------------------------------------------------------------------------------- |
+| <img src="/src/gestalt/gestprinc_v1.0003.png" width="100"> | Emergence      | **Complex pictures from simple pattern**                                                             |
+| <img src="/src/gestalt/gestprinc_v1.0001.png" width="100"> | Reification    | **Illusory continuity** constructive or generative aspect of perception                              |
+| <img src="/src/gestalt/gestprinc_v1.0002.png" width="100"> | Multistability | **Figure-Ground**,  pop back and forth unstably between two or more alternative interpretations      |
+| <img src="/src/gestalt/gestprinc_v1.0004.png" width="100"> | Invariance     | **Objects recognition** is  independent of rotation, elastic deformations, light, component features |
 
-
-## Gestalt law of pragnanz
+### Gestalt law of pragnanz
 
 Law of Perception (pragnanz. which means ‘concise and meaningful)
 
@@ -93,6 +109,34 @@ Law of Perception (pragnanz. which means ‘concise and meaningful)
 | | **Closure**|  ... they are parts of a closed figure
 || **Symmetry**| ... symmetry occurs (overwhelm perception). | Linear, radial, mirror. asymetry
 | | **Past experience** | ... they were together often in the past experience of the observer |
+
+
+
+
+
+
+# ...
+
+## Human Vision
+
+| angle  |                                             |     |
+| ------ | ------------------------------------------- | --- |
+| 15 x 2 | preferred viewing area 30 (left + right)    |     |
+| 25 x 2 | immediate field o f view (max eye movement) |     |
+| 60 x 2 | head rotation  (console games)              |     |
+| 95 x 2 | head & eyes  (max viewing area)             |     |
+
+## Sound perception
+mcgurk effect
+
+
+
+
+
+
+
+
+
 
 
 ---

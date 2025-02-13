@@ -13,6 +13,11 @@ aliases:
   - cognition
 ---
 
+
+ ([Consciousness and Cognition](http://consc.net/papers/c-and-c.html)).
+
+
+
 #psy 
 
 PSY
