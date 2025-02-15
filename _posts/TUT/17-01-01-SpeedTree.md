@@ -36,6 +36,8 @@ Parameters
 Shared parameters 
 
 
+# Parameters
+
 |  | Global | Branch | Leaves |
 | ---- | ---- | ---- | ---- |
 | Gen | Number of points ,  Spawn points placement spline | Global scale, Z-depth, Prune |  |
@@ -71,15 +73,14 @@ Spawn points parameters
 | Parent                   |       | Anchors       | Anchors   | Random       | Spawn on anchors                                                                                           |
 |                          |       |               |           |              |                                                                                                            |
 
+####  Align style 
 
-##### Align style 
-When “Align” is enabled, generated nodes attempt to roll their initial orientation skyward as much as they can, according to the following options:
+| <br>       | When “Align” is enabled, generated nodes attempt to roll their initial orientation skyward as much as they can, according to the following options: |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Individual | Each node rolls skyward independently.                                                                                                              |
+| Group      | All of the nodes in the group roll skyward together.                                                                                                |
 
-|   |   |
-|---|---|
-|Individual|Each node rolls skyward independently.|
-|Group|All of the nodes in the group roll skyward together.|
-
+----
 ## Spine
 
 Orientation 
@@ -89,6 +90,7 @@ Orientation
 - noise 
 - break 
 
+----
 ## Orientation 
 For leaf generator 
 
@@ -98,10 +100,13 @@ deform
 - deform leaf mesh 
 - vertex control - noise
 
+---
 ## Skin
 
+---
 ## UV 
 
+---
 ## Mat 
 
 ## Segments
@@ -111,29 +116,27 @@ Length
 Radial 
 
 
-## LOD
-https://docs9.speedtree.com/modeler/doku.php?id=kcgameslod
-
-## Hand drawn 
-
 
 ----- 
 
-# Branch 
+# Node
+
+## Branch 
 - **Branch** 
 - **Trunk** 
 - **Little branches**  
 - **Twigs** 
 - **Shell** - divide trunk to 2 and blend materials 
 
-# Leaves
+## Leaves
 - **Batch leaf** - packed instances 
 - **Mesh leaf** - access to each leaf 
 - **Fond** - aspect ration depend on texture aspect ratio 
 
 You can add one of leaves generators and open: **Edit Cutout** editor. You should add pivot, direction and plane mesh 
 
-# Clusters
+# Material
+## Clusters
 Planes with leaf clumps 
 
 ##### Bake billboard
@@ -203,3 +206,10 @@ On toolbar
 - Paint Vert - move
 - Paint Vert Col - color
 ```
+
+
+
+
+## LOD
+https://docs9.speedtree.com/modeler/doku.php?id=kcgameslod
+
