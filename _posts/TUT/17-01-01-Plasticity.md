@@ -1,5 +1,5 @@
 ---
-title: Modeling - Vegetation - Speed Tree
+title: Plasticity
 categories:
   - ART
 tags:
@@ -7,7 +7,7 @@ tags:
   - 3D
   - CG
   - Software
-description: Vegetation, foliage
+description: Plasticity
 permalink: /plasticity/
 aliases:
   - plasticity

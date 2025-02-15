@@ -85,7 +85,7 @@ When “Align” is enabled, generated nodes attempt to roll their initial orien
 Orientation 
 - start angle 
 - roll 
-- garvity / zig zag 
+- gravity / zig zag 
 - noise 
 - break 
 
