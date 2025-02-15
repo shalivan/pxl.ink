@@ -12,32 +12,29 @@ permalink: /speedtree/
 aliases:
   - speedtree
 ---
-Related notes:  [Modeling Foliage](foliage), [Sculpting](/sculpting/), [Modeling](/modeling/), [Color](/color/) 
+Related notes:  [Modeling Foliage](/foliage/), [Sculpting](/sculpting/), [Modeling](/modeling/), [Color](/color/) , lsystem 
 
 {% comment %} [[17-01-01-Modeling]], [[21-01-01-Art]] [[17-01-01-Modeling_Foliage]] [[02-01-01-LSystem]]  [[18-01-01-Color]]  [[14-01-01-Procedural]] [[08-01-01-Material]] {% endcomment %}
 
 # Speed tree
 
+You can construct tree procedurally to make an advantage of generators randomization 
+
 #### Shortcut 
 `F` / `Ctrl` + `F` - hide 
 `H` - hide
 
-You can construct tree procedurally to make an advantage of generators randomization 
-
-edit modes: 
+Edit modes
 - **Generator**  - edit all instances
 - **Node** - edit single branch  “Clear Node Edits” option in the menu when you right-click a generator in the 
 
-parameters:
+Parameters
 - **[+-]** - Variance. help with seed randomization    
 - **[green curve]** -  Parent curve. Along length of parent from bottom to end. 
 - **[blue curve]** - Profile curve. How it behave along spline. From 0 to param value.       
 - **% of parent** - Use % of parent to be procedural (can growth)   <<<< ?!!!!!!!
+Shared parameters 
 
-Shared parameters ??? 
-
-
-# Properties
 
 |  | Global | Branch | Leaves |
 | ---- | ---- | ---- | ---- |
@@ -54,23 +51,26 @@ Shared parameters ???
 Spawn points parameters
 
 ####  Placement Mode
-| mode | Count | Placement | Placement | ORIENT | Usage |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-| Absolut | 1 | Number | Random | Random | Stomps and trunk |
-| Absolut step | *  | Number | Even |  |  |
-| Proportional | 1 | Number | Random | Flat | Adapts to the size of the parent. Suitable for randomization and cases where parents are of varying sizes. |
-| Proportional Step | *  | Number | Even | Flat |  |
-| **Interval** | *  | Distance | Even | Star | Constant frequency, adaptive number. - more for longer |
-| **Phylotaxy** |  |  |  |  | Primarily used w high detail vfx targeted Based on botanical classifications. |
-| Opposite (distichous) | 2 | Distance | Even | Flat |  |
-| Opposite (decussate) | 2 | Distance | Even | Cross |  |
-| Opposite | 2 | Distance | Even | Random |  |
-| Whorled | *  | Distance | Even | Star |  |
-| Alternating (distichous) | 1 | Distance | Even | Flat |  |
-| Alternating | 1 | Distance | Even | Random |  |
-| **Bifurcation** |  | Unpredictable | Random | On Curvature | Best places to produce organic structures. Natural junctions of the parent branch |
-| Flood |  | Number | Random | Random | Create targets or meshes attached to mesh generator or fill a general area at random. |
-| Parent |  | Anchors | Anchors | Random | Spawn on anchors |
+
+| mode                     | Count | Placement     | Placement | ORIENT       | Usage                                                                                                      |
+| ------------------------ | ----- | ------------- | --------- | ------------ | ---------------------------------------------------------------------------------------------------------- |
+| Absolut                  | 1     | Number        | Random    | Random       | Stomps and trunk                                                                                           |
+| Absolut step             | *     | Number        | Even      |              |                                                                                                            |
+| Proportional             | 1     | Number        | Random    | Flat         | Adapts to the size of the parent. Suitable for randomization and cases where parents are of varying sizes. |
+| Proportional Step        | *     | Number        | Even      | Flat         |                                                                                                            |
+| **Interval**             | *     | Distance      | Even      | Star         | Constant frequency, adaptive number. - more for longer                                                     |
+| **Phylotaxy**            |       |               |           |              | Primarily used w high detail vfx targeted Based on botanical classifications.                              |
+| Opposite (distichous)    | 2     | Distance      | Even      | Flat         |                                                                                                            |
+| Opposite (decussate)     | 2     | Distance      | Even      | Cross        |                                                                                                            |
+| Opposite                 | 2     | Distance      | Even      | Random       |                                                                                                            |
+| Whorled                  | *     | Distance      | Even      | Star         |                                                                                                            |
+| Alternating (distichous) | 1     | Distance      | Even      | Flat         |                                                                                                            |
+| Alternating              | 1     | Distance      | Even      | Random       |                                                                                                            |
+| **Bifurcation**          |       | Unpredictable | Random    | On Curvature | Best places to produce organic structures. Natural junctions of the parent branch                          |
+| Flood                    |       | Number        | Random    | Random       | Create targets or meshes attached to mesh generator or fill a general area at random.                      |
+| Parent                   |       | Anchors       | Anchors   | Random       | Spawn on anchors                                                                                           |
+|                          |       |               |           |              |                                                                                                            |
+
 
 ##### Align style 
 When “Align” is enabled, generated nodes attempt to roll their initial orientation skyward as much as they can, according to the following options:
