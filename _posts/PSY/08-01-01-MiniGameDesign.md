@@ -30,6 +30,8 @@ Second layer novelty
 Euro game/Ameri trash - mechanics vs theme 
 # Types
 
+King making - not fair / asymetric
+
 ## **Abstract Strategy**
 - Moving Pieces - Position pieces strategically without themes.
 - Elimination - Remove opponents' pieces to win.
