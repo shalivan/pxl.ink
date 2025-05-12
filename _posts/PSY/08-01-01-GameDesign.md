@@ -17,8 +17,22 @@ aliases:
 >Obsidian: [[08-01-01-GameDesign]]  [[10-01-01-GameTheory]]   [[Classic_Mechanics]]  [[05-01-01-MechanicsSingle]] [[09-01-01-Ludology]] [[10-01-01-GameTheory]]  [[12-01-01-Lore]]
 
 
+Make game long not by Time gates but by complex mechanics 
+
 Mechanics vs Design?
 Story Symbol Idea Slogan Surprise 
+
+https://lizengland.com/blog/game-design-library/
+
+PUZZLES:
+- Alignment problem 
+- Order of operation problem 
+
+
+Depth vs Complexity 
+
+EMERGENT STRATEGIES: 
+
 
 in games: 
 
@@ -32,7 +46,30 @@ risk reward
 stress reliefe 
 https://www.youtube.com/watch?v=TYh5SJb5gWk&list=PLgKCjZ2WsVLScUWJZ7ppkHGlCUIXEj5Io&index=2
 
+---
+Game is activity ....
 
+
+GENRE (genus - category) nowodays cathegory of medium 
+- semantic - by seeing 
+- syntactic - by structure 
+- pragmatic - whatever called by public 
+
+MODE - structure of story (how is told) [satire,..] - brother than genre 
+cam/char/cntrl  << C3
+
+MOOD 
+
+Practical way (otheer way around require more examples and comparision to solve basic problems like other dids in same MOOD/MODE)
+
+STEP 1 GENRE
+Over again what is doing main activity >
+STEP 2  MODE
+progression mechanics - why doing / what reward / 
+STEP 3  MOOD
+wibes/ aestetic /mood
+
+----
 
 
 https://www.psychologyofgames.com/2011/03/the-unit-effect-and-player-perceptions/

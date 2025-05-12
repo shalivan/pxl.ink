@@ -20,6 +20,7 @@ Related notes: [Architecture](/arch/), [Unreal World](/uworld/), [Lore](/lore/),
 
 # Concept
 
+
 In game design, unlike film where the camera dictates perspective, levels control the environment. **Show don't tell**.  Primarily driven by mechanics, the design must ensure that every environment enhances the gameplay experience 
 Containing:
 - **Functionality** - How spaces serve gameplay mechanics.  

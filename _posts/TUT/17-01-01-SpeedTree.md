@@ -12,7 +12,6 @@ permalink: /speedtree/
 aliases:
   - speedtree
 ---
-Related notes:  [Modeling Foliage](/foliage/), [Sculpting](/sculpting/), [Modeling](/modeling/), [Color](/color/) , lsystem 
 
 {% comment %} [[17-01-01-Modeling]], [[21-01-01-Art]] [[17-01-01-Modeling_Foliage]] [[02-01-01-LSystem]]  [[18-01-01-Color]]  [[14-01-01-Procedural]] [[08-01-01-Material]] {% endcomment %}
 
@@ -24,7 +23,7 @@ You can construct tree procedurally to make an advantage of generators randomiza
 `F` / `Ctrl` + `F` - hide 
 `H` - hide
 
-Edit modes
+#### Modes
 - **Generator**  - edit all instances
 - **Node** - edit single branch  “Clear Node Edits” option in the menu when you right-click a generator in the 
 
@@ -38,21 +37,25 @@ Shared parameters
 
 # Parameters
 
-|  | Global | Branch | Leaves |
-| ---- | ---- | ---- | ---- |
-| Gen | Number of points ,  Spawn points placement spline | Global scale, Z-depth, Prune |  |
-| Spine |  |  Length, Orientation , Start Angle, Noise  |  |
-| Skin | Welding   | Radious, Roll, Split  | Size |
-| Optimize |  |  |  |
-| Orientation |  | - | Orient, Deform |
-| Segments |  |  |  |
+|              | Branch                             | Leaves         |
+| ------------ | ---------------------------------- | -------------- |
+| Gen          | Mode, Scale, Prune Heigth          |                |
+| Spine        | Length, Orient, Start Angle, Noise |                |
+| Skin         | Radius, Split                      | Size           |
+| Displacement | Shape, Flares                      |                |
+| Segments     | Optimize                           |                |
+| Orientation  | X                                  | Orient, Deform |
+|              | X                                  |                |
 
 ---
 
 ## Gen
-Spawn points parameters
-
-####  Placement Mode
+- Number of points  
+- Spawn  placement 
+- Global scale 
+- Z-depth
+- Prune
+#### Mode
 
 | mode                     | Count | Placement     | Placement | ORIENT       | Usage                                                                                                      |
 | ------------------------ | ----- | ------------- | --------- | ------------ | ---------------------------------------------------------------------------------------------------------- |
@@ -61,6 +64,7 @@ Spawn points parameters
 | Proportional             | 1     | Number        | Random    | Flat         | Adapts to the size of the parent. Suitable for randomization and cases where parents are of varying sizes. |
 | Proportional Step        | *     | Number        | Even      | Flat         |                                                                                                            |
 | **Interval**             | *     | Distance      | Even      | Star         | Constant frequency, adaptive number. - more for longer                                                     |
+|                          |       |               |           |              |                                                                                                            |
 | **Phylotaxy**            |       |               |           |              | Primarily used w high detail vfx targeted Based on botanical classifications.                              |
 | Opposite (distichous)    | 2     | Distance      | Even      | Flat         |                                                                                                            |
 | Opposite (decussate)     | 2     | Distance      | Even      | Cross        |                                                                                                            |

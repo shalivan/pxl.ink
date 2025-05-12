@@ -13,6 +13,8 @@ permalink: /matdata/
 aliases:
   - matdata
 ---
+rock ref: https://www.alexstrekeisen.it/english/meta/maficgranulite.php
+rock sudety: https://zywaplaneta.pl/granulity-sudety/
 
 Related notes: [Color](/color/), [Rendering](/rendering/) 
 

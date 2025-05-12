@@ -16,6 +16,13 @@ aliases:
 Related notes: [Ludology](/ludology/)  [Game Design](/gamedesign/)    [Game Mechanics](/gamemechanics/)    [Game Theory](/gametheory/)   [Level Design](/leveldesign/)  
 
 {% comment %}  [[08-01-01-GameDesign]]  [[10-01-01-GameTheory]]   [[Classic_Mechanics]]  [[05-01-01-MechanicsSingle]] [[09-01-01-Ludology]] [[10-01-01-GameTheory]]  [[12-01-01-Lore]] {% endcomment %}
+
+
+
+https://youtu.be/5xWNfVhVTJU
+
+Static games - content matter
+Dynamic games - mechanics matters 
 # Structure 
 Journey from uncertainty to solution 
 
@@ -28,6 +35,12 @@ Second layer novelty
 - subversion
 
 Euro game/Ameri trash - mechanics vs theme 
+
+
+- Jakie sa mechaniki 
+	- Co wiem czego nie. Jakie informacje są utajnione 
+	- Jaki jest cel - victory condition 
+	- coop / rival ? 
 # Types
 
 King making - not fair / asymetric
@@ -153,6 +166,8 @@ King making - not fair / asymetric
 - Symmetric/Asymmetric - Equal/unique powers.
 - Campaign Play - Progress across sessions.
 
+
+[Perspective and its Consequences in Historical Game Design w/ Cole Wehrle](https://youtu.be/wi_MpZxLPFM)
 
 
 
