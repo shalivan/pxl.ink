@@ -10,10 +10,14 @@ tags:
   - Data
   - Node
 description: Pipelines
-permalink: /pipes/
+permalink: /pipes2/
 ---
 Related notes: [[DTA]]
 {% comment %}  [[DTA]] [[12-01-01-USD]] [[20-01-01-Res]]  [[13-01-01-Houdini]] {% endcomment %}
+ 
+
+ TEST @!!!!!!!!!!!!!
+
  
 # Projects
 - **Single source of truth**. One place to keep data / docks / bugs
