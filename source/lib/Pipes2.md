@@ -1,5 +1,5 @@
 ---
-title: Pipes
+title: Pipes2
 categories:
   - DTA
   - HOU
@@ -9,7 +9,8 @@ tags:
   - Pipelines
   - Data
   - Node
-description: Pipelines
+  - TEST
+description: Pipelines2
 permalink: /pipes2/
 ---
 Related notes: [[DTA]]
