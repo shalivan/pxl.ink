@@ -29,6 +29,37 @@ https://www.artstation.com/blogs/shinsoj/VoZK/optimization-general-theory
 [UE community: optimizing the medieval game environment](https://dev.epicgames.com/community/learning/talks-and-demos/585Y/optimizing-the-medieval-game-environment)
 
 
+RANDERING: 
+- 16.67
+
+DRAM - kilka DimRam chipów 
+VRAM - Closew to gpu 
+SRAM - Static close to CPU  (cache) L1 L2 L3 parts
+i CPU tez sa jakiue memory 
+
+
+Memory hierarchy: 
+capccity - total amounr 
+latency - acces time - (time between request) its why ssd canot be ram 
+htrouput  - bandwitch - how much info. 
+
+
+          acces speed / capacity 
+Register |~ 0.25-1s    | 128bytes |
+SRAM L1 |chache ~ 0.5 -1.5 ns    |       |   32-64 KB pre core | 1TB/s
+SRAM L2 |~1-4ns    |    256 KB - 1 MB pre core | 500 GB/s
+SRAM L3| ~5-20     |    ~4-64 MB| 50 GB/s
+DRAM |~10-70 ns     |   4-128 GB| 50 GB/s
+VRAM  | 4-24 GB| 500 GB/s
+SSD (NVMe) |~50 ys    | 512 GB - 4 T    | 3 Gb/s
+HDD | ~10ms    |   1-20 T |
+
+---------
+
+1 bajt > 8 byts
+8 * 3 color >24
+2k map 16 mb per map 
+
 # Framerate 
    
 1000ms (1s) / 30 klatek = 33,3 ms to render one frame  
@@ -304,6 +335,12 @@ cpu upload mem
 disk  
 steraming pool    
 
+
+# Virtualized
+
+
+Virtual textures >> vram can be fried >> more gpu copmputation less dynamic content 
+less than 1k to worth stream 
 
 
 ---

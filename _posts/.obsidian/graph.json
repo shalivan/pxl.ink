@@ -1,22 +1,51 @@
 {
   "collapse-filter": false,
   "search": "",
-  "showTags": true,
+  "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "Houdini",
+      "color": {
+        "a": 1,
+        "rgb": 14727532
+      }
+    },
+    {
+      "query": "Unreal",
+      "color": {
+        "a": 1,
+        "rgb": 6786236
+      }
+    },
+    {
+      "query": "Music",
+      "color": {
+        "a": 1,
+        "rgb": 13715271
+      }
+    },
+    {
+      "query": "Gamedev",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    }
+  ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": -1.2,
-  "nodeSizeMultiplier": 2.0140625,
-  "lineSizeMultiplier": 0.7890625,
+  "textFadeMultiplier": -3,
+  "nodeSizeMultiplier": 3.1625,
+  "lineSizeMultiplier": 1.19739583333333,
   "collapse-forces": false,
   "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
+  "repelStrength": 17.5,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.06699744995282501,
-  "close": false
+  "scale": 0.02431252836327083,
+  "close": true
 }

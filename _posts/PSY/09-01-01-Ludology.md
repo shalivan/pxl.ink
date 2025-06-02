@@ -14,14 +14,11 @@ permalink: /ludology/
 aliases:
   - ludology
 ---
-> Pxlink:  
->Obsidian:  [[08-01-01-GameDesign]]  [[10-01-01-GameTheory]]   [[Classic_Mechanics]]  [[05-01-01-MechanicsSingle]] [[09-01-01-Ludology]] [[10-01-01-GameTheory]]  [[12-01-01-Lore]]
 
+{% comment %} [[08-01-01-GameDesign]]  [[10-01-01-GameTheory]]   [[Classic_Mechanics]]  [[05-01-01-MechanicsSingle]] [[09-01-01-Ludology]] [[10-01-01-GameTheory]]  [[12-01-01-Lore]] {% endcomment %}
 
-
-Oral Stories > Theater > Books > Film > Radio > TV > Games > AR
-Books - imagine, movie - see, games - act. 
-
+Concept of games in a Broad context of media. Oral Stories > Theater > Books > Film > Radio > TV > Games > AR.  And differences: Books - imagine, movie - see, games - act. 
+"The Medium is the Message" - Marshall McLuhan
 # Ludology
 
 **Ludology** (etymologically 'game logic') - Study of games, the act of playing them, and the players and cultures surrounding them. It is a field of cultural studies that deals with all types of games throughout history. 
@@ -36,7 +33,6 @@ Books - imagine, movie - see, games - act.
 |                               | plot, character, and themes.                                                                            | gameplay mechanics, rules, and player interaction                                                                                                                  |
 
 Movies can create 'knowledge differences' easier than games which blend protagonist and player.
-
 
 ## Classical Approach
 - Jean Piaget (9 August 1896 – 16 September 1980) was a Swiss psychologist Importance of games:
@@ -97,12 +93,6 @@ Feeling being in control.
 
 1. what to communicate
 2. what emotions
-
-
-
-
-
-
 
 # Narration
 Some game structures can be metaphors
@@ -253,7 +243,6 @@ how they SEEM (TRAIT) - not important
 
 
 ---
-
 
 
 # Ludonarration

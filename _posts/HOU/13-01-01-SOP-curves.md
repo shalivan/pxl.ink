@@ -14,25 +14,26 @@ permalink: /sopcurves/
 
 To preserve curve direction u must preserve vertex order.
 
-
+---
 
 
 # SOP
 
 - `curve` node
 
-...
+----
 
 
-- `resample`
-- `refine`
 
 #### Cut on point
-- `Convert Line`  |   redraw primitive (destructive for gr &atrr)  
-- `Carve` | (will disconect points ! )
-- `Poly Path` |   redraw primitive (destructive for gr &atrr)
+- `Poly Cut` | can cuts only on points (destroy point groups but retain primitive)
+- `Convert Line`  |   Redraw primitive  (destructive for groups & attributes)   - can use `Poly Cut` with: `*` in `Cut Points`, and `Cut` in `Strategy` .
+- `Poly Path` |   Redraw primitive (destructive for groups & attributes) - can use `Poly Cut` with: `*` in `Cut Points`, and `Cut` in `Strategy` . Then: 'Clean' with: [v] 'Consolidate Points' and 'Fix Overlaps'
+
+#### Redraw
+- `Refine`
 - `Resample` | Redistribute point and attribs alobg the spine (blend attribs)
-- `Poly Cut` | can cuts only on points (detroy point grups )
+- `Carve` | (will disconect points ! )
 - `Fuse` |
 
 #### Inject edge where is no point  
