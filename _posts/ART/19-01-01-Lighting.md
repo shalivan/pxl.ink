@@ -29,10 +29,22 @@ One of the most important and influential elements. Give viewer idea about shape
 
 # Properties of Light Source
 
-| | |
-|---|---|
-| Primary |  Direct
-|Secondary | Indirect   
+
+light sources
+- Incandescence 
+	- Heat - blackbody radiation.  Have one peak heat wavelength  (smooth spectrum) - Strong in yellow/red
+- Luminescence 
+	- Electric discharge (ionized atoms)(electric discharge - ionized atoms)
+	- Electric field / current LED - Light Emitting Diode - can specialize in specific lengths 
+	- CFL - Compact Fluorescent Lamp - Combination of discharge lines and phosphor emission
+	- Biochemical reaction / Chemical reaction
+	- Photon absorption
+
+
+|           |          |
+| --------- | -------- |
+| Primary   | Direct   |
+| Secondary | Indirect |
 
 
 

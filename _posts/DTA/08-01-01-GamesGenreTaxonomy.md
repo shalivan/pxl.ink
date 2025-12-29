@@ -18,6 +18,7 @@ Related notes: [Ludology](/ludology/)  [Game Design](/gamedesign/) [Game Mechani
 {% comment %}  [[08-01-01-GameDesign]]  [[10-01-01-GameTheory]]   [[Classic_Mechanics]]  [[05-01-01-MechanicsSingle]] [[09-01-01-Ludology]] [[10-01-01-GameTheory]]  [[12-01-01-Lore]] {% endcomment %}
 
 
+
 one /multiple solutions
 
 # Genre taxonomy

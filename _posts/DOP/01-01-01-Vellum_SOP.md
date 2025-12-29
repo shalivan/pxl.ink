@@ -19,13 +19,19 @@ https://youtu.be/g1wT1LW7hfs
 
 <!-- more -->
 
+
+https://youtu.be/gGCEinRceKc  << all throu vellum
+
+
+
+---
 # Geometry
 Configure  Parameters  
 
 #### Geometry
 
 
-|| low | ||
+| | low | | |
 |-|-|-|-|
 |**Mass** |  0 - mass inactivete  || Can set from param or calculate
 |**Thickness** | | |( `edge len scale`- multi for thick)  Can set from param or calculate
@@ -44,14 +50,14 @@ Slow down motion
 For cloths, curves or constraints (like attach)
 
 
-||low |high ||
+| |low |high | |
 |-|-|-|-|
-**Stiffness** | 1 - stretchy (spandex) | 1e +10 rigid (leather)   | How stretchy material is (default infinite)  
-**Rest Lenght Scale** |0 - to snap all points in one | 1.1 - 10% larger after sim | Rest of edges (default 1)  
-**Compression Stiffness** | 10 - paper remain curled | 1000 - rubber (hi resistance )| How much can compress material (lower distance between points)  
-**Stiffnes Dropoff** ||Stop bounce|  On distance (m) or angle
-**Damping Ratio** ||| Lit more energy from sim  if too lively  (dont change) too much destory    
-**Plsticity** ||| Will return to rest pos.   
+|**Stiffness** | 1 - stretchy (spandex) | 1e +10 rigid (leather)   | How stretchy material is (default infinite)  
+|**Rest Lenght Scale** |0 - to snap all points in one | 1.1 - 10% larger after sim | Rest of edges (default 1)  
+|**Compression Stiffness** | 10 - paper remain curled | 1000 - rubber (hi resistance )| How much can compress material (lower distance between points)  
+|**Stiffnes Dropoff** ||Stop bounce|  On distance (m) or angle
+|**Damping Ratio** ||| Lit more energy from sim  if too lively  (dont change) too much destory    
+|**Plsticity** ||| Will return to rest pos.   
 
 - wrinkliness (with low res sim lower param help to remove jagginess) / (if compress how likley it stay compressed)  more is more likely stay  (decrease more smooth look and dont enforce wrinkles)  
 - `f@restlength = f@restlengthorig + fit(f@mask,1,2);` - restlength by param.   
@@ -59,17 +65,17 @@ For cloths, curves or constraints (like attach)
 
 ### Bend
 
-||low |high ||
-|-|-|-|-|
-**Stiffnes** | 0.01 - soft and bandy (silk) | 1000000 - more rigid (plastic))) |  How much resistant to unroll or bend   
-**Rest Lenght Scale** |
-**Plsticity** | will return to rest bend || / treshold -  below toehold will return to shape  / rate - how fast become plastic / hardening  while deform incresse
-**Treshold** | enter new config easy and quick   ||  
-**Rate**|| | make harden over time of banding  
-**Hardening** || | make harden over time of banding     
+|                       | low                             | high                             |                                                                                                                       |
+| --------------------- | ------------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| **Stiffnes**          | 0.01 - soft and bandy (silk)    | 1000000 - more rigid (plastic))) | How much resistant to unroll or bend                                                                                  |
+| **Rest Lenght Scale** |                                 |                                  |                                                                                                                       |
+| **Plsticity**         | will return to rest bend        |                                  | / treshold -  below toehold will return to shape  / rate - how fast become plastic / hardening  while deform incresse |
+| **Treshold**          | enter new config easy and quick |                                  |                                                                                                                       |
+| **Rate**              |                                 |                                  | make harden over time of banding                                                                                      |
+|**Hardening** || | make harden over time of banding     
 
 
-
+---
 # Constraints
 Constraints are geometry attributes. Add in sop and edit it in `velum Constrains Properties` inside vellum solver to modify constr dynamicly
 
@@ -82,20 +88,19 @@ Constraints are geometry attributes. Add in sop and edit it in `velum Constrains
 
 ### Base
 
-|| Effect | |When to use||
-|---|---| ------------------------------------------------------------------------|---|-|
-**Distance** |   Stretch | Keep distance Along Edges by Stiffness and Damping | basic
-**Bend**  | Rotation |  Keep angle Across Trix  | basic
-**Slide**  | Slide |  H18  |
+|              | Effect   |                                                    | When to use |     |
+| ------------ | -------- | -------------------------------------------------- | ----------- | --- |
+| **Distance** | Stretch  | Keep distance Along Edges by Stiffness and Damping | basic       |     |
+| **Bend**     | Rotation | Keep angle Across Trix                             | basic       |     |
+| **Slide**    | Slide    | H18                                                |             |     |
+|**String**  | Distance + Angle  | Cheaper than hairs  |
+|**Hair**  | StretchShear + BendTwist |  Use polyline or L-sys as input (its like distance bend and twist)
 |-|-|-|-|
-**String**  | Distance + Angle  | Cheaper than hairs  |
-**Hair**  | StretchShear + BendTwist |  Use polyline or L-sys as input (its like distance bend and twist)
+|**Cloth** | Distance + Bend  |  
 |-|-|-|-|
-**Cloth** | Distance + Bend  |  
-|-|-|-|-|
-**Pressure** |  |  Compresable Volume  (enforce volume depending on stiffness) (fstr than tetra)  | Air   
-**Tetra** |  | Uncompresable Volume Tetrahedral fwm  (requiure tetrah geo: solid conf SOP)   |  Liquids
-**Struts** |  Stretch Body| Conect opose sides. Good for stftb. that does not stiff tu much   
+|**Pressure** |  |  Compresable Volume  (enforce volume depending on stiffness) (fstr than tetra)  | Air   
+|**Tetra** |  | Uncompresable Volume Tetrahedral fwm  (requiure tetrah geo: solid conf SOP)   |  Liquids
+|**Struts** |  Stretch Body| Conect opose sides. Good for stftb. that does not stiff tu much   
 
 
 ### Hard
@@ -103,10 +108,10 @@ Constraints are geometry attributes. Add in sop and edit it in `velum Constrains
 - Direct update
 - Create / remove by setting point attribute
 
-|[Direct update]|Hard |  Create / remove by setting point attribute | -||
-|---|---| ------------------------------------------------------------------------|---|-|
-**PinHard**   | Geometry point attributes  | Set type: permament/stopped.  `stopped`, `pintoanimation`  |Pin to Target position |  ![](/src/vellum/pinhs.png)  
-**Weld**  | Geometry point attributes   | Threat pts as one point and will look like 1 object  Can break at stress level.  (add bend across weld for smooth normal) Autobreakable (pre-tearing)  `weld`, use pointid or groups ! | Same @P (fuse), Fractured cloth |   ![](/src/vellum/welds.png)
+| [Direct update] | Hard                      | Create / remove by setting point attribute                                                                                                                                             | -                               |                                |
+| --------------- | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- | ------------------------------ |
+| **PinHard**     | Geometry point attributes | Set type: permament/stopped.  `stopped`, `pintoanimation`                                                                                                                              | Pin to Target position          | ![](/src/hou/vellum/pinhs.png) |
+| **Weld**        | Geometry point attributes | Threat pts as one point and will look like 1 object  Can break at stress level.  (add bend across weld for smooth normal) Autobreakable (pre-tearing)  `weld`, use pointid or groups ! | Same @P (fuse), Fractured cloth | ![](/src/hou/vellum/welds.png) |
 
 ### Soft
 - Soft -
@@ -115,16 +120,16 @@ Constraints are geometry attributes. Add in sop and edit it in `velum Constrains
 - [plasticity / autobreakable]
 
 
-|[Solvable]|Soft |   Create / remove by `vellumconstraintproperty` DOP node.   | [plasticity / autobreakable]||
-|---|---| ------------------------------------------------------------------------|---|-|
-**PinSoft**  | Constraint primitive | Pin to Target  position (remove manualy constr) / stiffness(magnes) |  Magness, Pin to own anim to get detail in existing movement   | ![](/src/vellum/pinss.png)
-**Stich**  |Constraint primitive|  Soft or Stich Weld.  Points with in 2 groups that are far - keeping them apart. Can stitch to poligon instead point. SLIDE (remove manualy constr) plasticity. Can have spaces between points | Additional cloth pieces, keep distance  | ![](/src/vellum/stitchs.png)
+| [Solvable]  | Soft                 | Create / remove by `vellumconstraintproperty` DOP node.                                                                                                                                       | [plasticity / autobreakable]                                |                                  |
+| ----------- | -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | -------------------------------- |
+| **PinSoft** | Constraint primitive | Pin to Target  position (remove manualy constr) / stiffness(magnes)                                                                                                                           | Magness, Pin to own anim to get detail in existing movement | ![](/src/hou/vellum/pinss.png)   |
+| **Stich**   | Constraint primitive | Soft or Stich Weld.  Points with in 2 groups that are far - keeping them apart. Can stitch to poligon instead point. SLIDE (remove manualy constr) plasticity. Can have spaces between points | Additional cloth pieces, keep distance                      | ![](/src/hou/vellum/stitchs.png) |
 
 
-|Name | Effect | |When to use||
-|---|---| ------------------------------------------------------------------------|---|-|
-**Glue**  | Constraint primitive  |  Glue source to target distance treshold (check: nr constr per pt)(remove manualy constr) plasticity | Anim,  2 pieces
-**Attach**  |  |  Stick to closest point on geometry & keep distance    |  Anim objects
+| Name | Effect |     | When to use |     |
+| ---- | ------ | --- | ----------- | --- |
+|**Glue**  | Constraint primitive  |  Glue source to target distance treshold (check: nr constr per pt)(remove manualy constr) plasticity | Anim,  2 pieces
+|**Attach**  |  |  Stick to closest point on geometry & keep distance    |  Anim objects
 
 
 Connect cloth to body = cloth + attach
@@ -159,7 +164,8 @@ You can ad per point `friction` attribute
 
 ---
 
-# Solver (DOP Forces)
+# Solver 
+## SOP DOP Forces
 
 
 1. OBJECT
@@ -236,13 +242,14 @@ if(inpointgroup(0,"unweld",@ptnum))
  i@weld = -1;
 ```
 
+---
 
 # Setups
 
 ### Set Target
 
 **Avoid time dependences** - set  when pining top not fetch animation to solver  
-![](/src/vellum/vellumtargetsmall.png)
+![](/src/hou/vellum/vellumtarget.png)
 
 
 
@@ -274,12 +281,13 @@ by shape matching
 
 
 ## Balloon
-- [Vellum Configure Baloon] = cloth Constraint + Pressure Constraint     
-- anim stretch on pressure constraint
-- change volume setup: - `rest length scale`    
- - `Stretch Stiffness` on Cloth  and pressure.  low - jellow , high stiff ,
- - `Bend Stiffness` - Cloth  more bandy soft bodies,
- - `Damping ratio` - cloth stretch section  
+- [Vellum Configure Baloon] = Cloth constraint + Pressure constraint     
+- Anim stretch on pressure constraint
+- change volume setup: -
+	- `Stretch > Rest length scale`    
+	- `Stretch > Stiffness` on Cloth  and pressure.  low - jellow , high stiff ,
+	- `Bend > Stiffness` - Cloth  more bandy soft bodies,
+	- `Damping ratio` - cloth stretch section  
 
 Expose output group in pressure  `@pstretch` - @VellumsconstraintProperty inside solver forces
 `cluster points` - to glue constrain
@@ -373,3 +381,8 @@ https://www.sidefx.com/tutorials/vellum-nodes/
 # H 19.5
 
 Spatial Sort Interval. - Sot grain fluid  particles  in memory. It sould change particle count !!!!! (help with speed of grain fludi sim )
+
+
+
+----
+rest length - https://youtu.be/aNf-_dKI1VQ 

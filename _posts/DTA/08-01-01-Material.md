@@ -25,6 +25,141 @@ Related notes: [Color](/color/), [Rendering](/rendering/)
 [Convert colors calculator](https://davengrace.com/dave/cspace/)
 
 
+
+# Substrate (Strata)
+more expresive workflows, can combine 2 shaderws toghether No cost if input is not used ! 
+Layer system - layering is expensive  if possible make with onslab 
+Slab << is a material **matter responce to light**. = **interface** + **medium**
+#### **G buffer** 
+Gbuffer Format (projection)
+`Adaptive` - packed data noi blend like decal ??? - play 5 & xboix series SM6 - pit packed uav to encod per pixel << full 
+`Blendable` - not fully  but safe and low compatibility, ok for transition. 
+
+https://youtu.be/KYmd_LNlw2c?t=2125
+
+
+
+[YT unreal fest](https://youtu.be/G0h-5dQivI8) - Everything You Wanted to Know About Substrate(But Are Too Afraid to Ask)| Unreal Fest Stockholm 2025
+[YT Render Bucket - UE5.7 Substrate – Next-Gen Shading Workflow Explained](https://youtu.be/Ghn-FvdaBBc) - 
+[YT  Beyond Extent and Hugh Chew](https://youtu.be/Pbbu-wxCqnE)
+https://youtu.be/4X-nZ7qflcw - base to advanced substrate 
+
+![[Pasted image 20251127035117.png]]
+## Slab BSDF 
+
+
+`BSDF` - Bidirectional scattering distribution functions  -
+
+
+## Monolithic
+complex stand alone phenomena  non composible 
+Volumetric 
+Hair 
+Eye 
+Unlit, Single layer water.
+
+
+
+Wyjątki: 
+Monolithic / Domain Materials 
+Still benefit from substrate 
+
+post pro , Light fn, decal
+
+decal > convert to decal 
+
+
+
+|                                | default value                                                |              |                                     | Order of dops during simpli fication |                                                                                                                           |           |
+| ------------------------------ | ------------------------------------------------------------ | ------------ | ----------------------------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------- | --------- |
+| Albedo                         | -                                                            |              |                                     |                                      |                                                                                                                           | medium    |
+| `F0` v3 (metlic / specularity) | (0.04, 0.04, 0.04)                                           | Reflectivity | Reflection at facing angle          |                                      | if f0 increase diffuse response lower                                                                                     | interface |
+| `F90` (metlic / specularity)   | 1                                                            | Reflectivity | Reflection at shilluete.            | 5 Simple                             | adobe use F82 (specular edge)  - Hue and saturation shift relative to F0 value                                            | interface |
+| Roughness                      |                                                              | Roughness    |                                     |                                      | spread of the highlight                                                                                                   | interface |
+| `Anisotropy`                   |                                                              | Roughness    | Stretching highlights               | 2 Complex                            |                                                                                                                           | interface |
+| Normal                         | (0.5, 0.5, 1)                                                |              |                                     |                                      |                                                                                                                           | interface |
+| Tangent                        |                                                              |              |                                     |                                      |                                                                                                                           | interface |
+| `SSS MFP`                      | 0 cm                                                         |              | Subsurface mean free path - Opacity | 5 Simple                             | density of material and effect of absorption how RGB answer to depth<br>Large values can be noisy !, best on translucency | medium    |
+| `SSS MFP Scale`                | Negative values negative scattering, 0 - scatter in both dir |              |                                     | 5 Simple                             |                                                                                                                           | medium    |
+| `SSS Phase Anisotropy `        |                                                              |              |                                     | 5 Simple                             |                                                                                                                           | medium    |
+| Emissive                       |                                                              |              |                                     |                                      |                                                                                                                           |           |
+| Second Roughness               |                                                              | Roughness    |                                     | 3 Complex                            |                                                                                                                           | interface |
+| Second Roughness Weight        | 0 is using only first and 1 will use only second.            | Roughness    |                                     | 3 Complex                            |                                                                                                                           | interface |
+| `Fuzz Roughness`               |                                                              | Fuzz         | Emulate fuzz                        | 4                                    |                                                                                                                           | interface |
+| Fuzz Amount                    |                                                              | Fuzz         |                                     | 4                                    |                                                                                                                           | interface |
+| Fuzz Color                     |                                                              | Fuzz         |                                     | 4                                    |                                                                                                                           | interface |
+| Glint Dens                     |                                                              |              |                                     | 1 Most complex                       |                                                                                                                           |           |
+|                                |                                                              |              |                                     |                                      |                                                                                                                           |           |
+
+- f0 is a color - any material can exibit chromatic specular (oxide, oil films)
+- energy conserving by design. if F0 increse then diffuse responce decrese 
+- medium > sss, translucent, semi transparent , skin glass soft plastic 
+
+Clasic domains (Domain matrial) will not blend:  Decal, Light fn, Post-pro, Volume, Hair / Eye, Unlit, Single Layer
+
+##### SSS 
+E-num on slab node:
+- wrap
+- two-sided wrap
+- diffusion 
+- simple volume 
+
+
+IRO
+
+
+##### Metal 
+SMF Metal  - node help to convert metallic workflow  but can be achieved by Diffuse Albedo and F0 
+- Diffuse - diffuse is separated so 0,0,0
+- F0 - should be color of metal 
+
+##### Silk fabric 
+
+##### Thin-film  
+- f0 & f90 
+- dif - 0 
+
+### Blend Materials 
+
+`Add`  - not physically correct braking energy conservation by suming contribnution postevaluated.  Use for emissives! 
+`Horizontal layers` blend materials  - if blend factor is 0/1 is only 1  else < eveluate both (only on blends)
+- background / foreground 
+`Vertical layers` - one on top of other and define what thick first layer is.  Expensive
+- top / bottom  with thickness   (Non 0 MFP if 0 ius considered opaque and not evalueated)
+`Coverage weight` (how strong material is)
+`Select` - Condition  (can be smooth with TAA) ONLY WAY To blend mat with different SSS !!!! 
+
+![[Pasted image 20251227032045.png]]
+### Example glass
+Material details: 
+- set refraction model  (and then IRO in material)
+- mode 
+	- tintied glas - transl col transm 
+- Ligth mode 
+	- surface forroward sjhading (expensive)
+
+
+# Slab BTDF 
+Transmision
+
+
+# Slab BSDF  
+Bi-Directional Scattering distribution Fn. 
+Outer and inner surface toghether 
+
+
+
+
+
+---
+
+# PBR
+Guideling how to author textures 
+Energy conservation. Light reflected or absorbed 
+Metal in PBR - base color is reflection tint - metal reflect much more in facing angles as specular. (non metal 4-7%) and all materials reflect 100% at shilluete edge angle 
+Roughness - how smooth on fine level (microfacet like).
+
+
 # Metallic Workflow
 
 ## Albedo / Reflectance

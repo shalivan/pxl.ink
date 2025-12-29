@@ -18,6 +18,24 @@ aliases:
 
 {% comment %}[[09-01-01-U_Optimisation]] [[05-01-01-U_BP]] [[05-01-01-U_Code]] {% endcomment %}
 
+
+
+https://therealmjp.github.io/posts/to-earlyz-or-not-to-earlyz/ < Early-Z
+
+
+
+https://youtu.be/II_rnWU7Uq8
+
+
+
+
+
+
+
+
+
+
+===============
 # Project Settings
 - `Suport Sky Atmosphere` &   
 - `Suppport Atmosphere Affecting Height Fog` - to work with new atmosphere Additional shader permutations     

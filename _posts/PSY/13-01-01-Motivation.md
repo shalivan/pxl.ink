@@ -90,11 +90,11 @@ happens when the desired behavior is reinforced each time it is observed. contin
 
 Some responses are reinforced
 
-| |Interval (after time)|Ratio (after action)|
-|--|--|--|
-__Fixed__  Predictable | kill > loot spawn, stamina (building up high peak and quick drop)  | One more turn. clickers,  turn based building time (short post reinforcement pause)
-__Variable__ Unpredictable |  public events (moderate study response pattern) | Gambling. Loot drops, Crit hits  (high steady response pattern, small bumps)
-
+|                            | Interval (after time)                                             | Ratio (after action)                                                                |
+| -------------------------- | ----------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| __Fixed__  Predictable     | kill > loot spawn, stamina (building up high peak and quick drop) | One more turn. clickers,  turn based building time (short post reinforcement pause) |
+| __Variable__ Unpredictable | public events (moderate study response pattern)                   | Gambling. Loot drops, Crit hits  (high steady response pattern, small bumps)        |
+Gambling - variable interval rate at a cost. Repetitive behaviour that brain can lock on. 
 ### Contingent
 - `Not-Contingent` - not related to behavior (surprise gifts), not controlled
 - `Task-Contingent` - rewarding: `engagement`, `completion`, `performance`. Sense of progression - task related motivate more contingent outcomes are not necessary to demonstrate reinforcement, but perceived contingency may increase learning.
@@ -182,7 +182,7 @@ Depend on context and not account for all human behavior. Can shift by different
 
 
 ## PENS - The Player Experience of Need Satisfaction
-Model on human needs.
+Model on human needs. Nice one!
 
 
 |  | | | | |
@@ -190,6 +190,11 @@ Model on human needs.
 |**Competence** / Mastery  | Challenge | Easy to learn difficult to master  | skill: survival, crafting | Being in control Interact with activities.
 |**Autonomy** | Choice |  Volition Customization, Agency,  Control | your world, your creations | Self expression or meaningful choice  
 |**Relatedness** | Connecting | Social grouping, Status feedback  | shared experiences, public canvases | Cooperation or Competition. Rank relation. (knowledge where I fit)
+
+**Autonomy** (giving players options to tackle challenges), 
+**Mastery** (excelling at the core gameplay loop), 
+**Competence** (knowing the game inside out), and
+**Relatedness** (human connection through multiplayer or a gripping story and characters).
 
 Autonomy:
 - Freedom, Independence (from real world wiev) but not good words for autonomy,
@@ -200,13 +205,12 @@ Autonomy:
 [Blog: Nick Ballou - Basic Psychological Needs](https://nickballou.com/posts/misunderstandings-of-sdt-in-video-games-part-1-basic-psychological-needs/)
 
 
-
 ## Bartls
 
-| | Acting | Interacting |
-|--|--|--|
-**Players** | Killers | Socializers  
-**World** | Achievers |  Explorers
+|             | Acting    | Interacting |
+| ----------- | --------- | ----------- |
+| **Players** | Killers   | Socializers |
+| **World**   | Achievers | Explorers   |
 
 ## Gamer motivation profile
 

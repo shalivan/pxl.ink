@@ -18,12 +18,14 @@ aliases:
 ---
 > Obsidian: [[04-01-01-U_FluidNinja| Fluid Ninja]] [[16-01-01-VFX|VFX]]
 
+Optimisation : 
+-Effect Types - like texture groups backbone of optimisation and scalability 
 
 
-https://youtu.be/vOSXl7-2vd0
+https://youtu.be/vOSXl7-2vd0 Interactive VFX systems
 https://80.lv/articles/drawing-locations-to-a-render-target-in-unreal-engine-5-1/
-https://youtu.be/3fW5xjiDm-A
-
+[Grid 2D to Render Target](https://youtu.be/3fW5xjiDm-A )
+[YT UE Optimising Niagara](https://youtu.be/71c5yv-XeY8)
 
 ### Interaction spaces
   - **Triangles**  - u must point to specific mesh in query  

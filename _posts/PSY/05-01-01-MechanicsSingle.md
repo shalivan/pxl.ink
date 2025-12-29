@@ -12,8 +12,9 @@ permalink: /gamemechanics/
 aliases:
   - gamemechanics
 ---
-> Pxlink: [Ludology](/ludology/)  [Game Design](/gamedesign/)    [Game Mechanics](/gamemechanics/)    [Game Theory](/gametheory/)   [Level Design](/leveldesign/)  
->Obsidian: [[08-01-01-GameDesign]]  [[10-01-01-GameTheory]]   [[Classic_Mechanics]]  [[05-01-01-MechanicsSingle]] [[09-01-01-Ludology]] [[10-01-01-GameTheory]]  [[12-01-01-Lore]]
+Related notes: [Ludology](/ludology/)  [Game Design](/gamedesign/)    [Game Mechanics](/gamemechanics/)    [Game Theory](/gametheory/)   [Level Design](/leveldesign/)  
+
+[[08-01-01-GameDesign]]  [[10-01-01-GameTheory]]   [[Classic_Mechanics]]  [[05-01-01-MechanicsSingle]] [[09-01-01-Ludology]] [[10-01-01-GameTheory]]  [[12-01-01-Lore]]
 
 
 https://youtu.be/Nj7EaryBgak
@@ -37,7 +38,18 @@ variable reinfocement loop
 
 --------
 
+Randomnes 
 
+Types:
+input - good pre random - fair, more strategic game, 
+ post random output randomness - less 
+
+limit randomnes to get exxpected effect more offten. 
+
+Casino. 
+
+
+--------
 
 mechanics - how game works 
 dynamics - how player acts 
@@ -49,8 +61,6 @@ struggle to survive
 can be also **feeling** > relax (flowe)
 **experience** - comanding a strship 
 character 
-
-how to reflect growht in mechanics 
 
 # Structure
 
@@ -131,32 +141,10 @@ If you generating the whole story your mechanics must include loss and recovery
 - Ecosystem
 
 
-
-# Puzzles
-
-A food puzzle
-- Tells you how to solve it, inherent in its design
-- Doesn't relay on outside knowledge
-- is also adjustable in difficult by adding or reducing information
-
-types:
-- find clues with key parts
-- puzzle
-
-game eg. with simple rules with costs. of building :
-offence - 2
-defence - 1
-production - 5
-maping decisions how to play (what build next).
-- short / long term
-- hi risk hi reward / lo risk
-- order (productopn, missions, what to build first)
-- Allocation suplay network
-- Boudries
-
-
 # Progres
 ... also by probability with advancement in progression and pacing
+
+how to reflect growht in mechanics 
 
 
 
@@ -198,195 +186,31 @@ doom 2016 forward combat - build forward momentum from glory kills
 Like in gears
 
 
-# Economy
 
+# Puzzles
 
-# Resources
+A food puzzle
+- Tells you how to solve it, inherent in its design
+- Doesn't relay on outside knowledge
+- is also adjustable in difficult by adding or reducing information
 
- exchanging resources ( Store or use now bust. )
+types:
+- find clues with key parts
+- puzzle
 
-## Scarcity
-- units, currency, objects, time, terrain
+game eg. with simple rules with costs. of building :
+offence - 2
+defence - 1
+production - 5
+maping decisions how to play (what build next).
+- short / long term
+- hi risk hi reward / lo risk
+- order (productopn, missions, what to build first)
+- Allocation suplay network
+- Boudries
 
-#### Health Systems
-Pool of points that get subtracted from, eventually it reaches zero, and that initializes a game-over function or increments a death counter ( **life's** ) and restarts a section of gameplay),
 
-How much punished for mistakes
 
-- **regenerating** -  > reward for hiding!!  and not rewarding good play. but get froward momentum.  (it equal chances before next encounter). Cannot hurt player a little as punishment, enemies must be able to kill you
-- **health packs**
- - boxes with stuff. if u have health u get ammo. Or coins to spend not always on health
-- **glory kill** reward >> offensive system and encourage to play
-
-- mixed:
-  - regen last few %
-  - regen when other conditions. Only if the second variable influenced by ie food is at a certain point  (Minecraft)
-
-#### Action Points
-mana (actions) - spiritual or magical energy / karma / stamina  -   Non renevable / renevable
-
-
-
-
-#### Upgres
-- Temporal -
-- Permanent - tree.
-
-#### How to get
-
-- Loot
-- Hidden in enviro  
-
-
-#### Znajdzki  
-cerst cheast
-
-- economy
-- market
-supply and demand
-zelda : chemistry engine  
-
-- fuel, raw materials
-
-#### Stock to Flow
-Population - is stock  
-Births rate - is flow
-
-#### Economic system
-Economies
-
-#### Ecosystems
-Ecologies - balance not reinforce each other . balance in dynamic universe.
-
-
-# Enemies
-  types and classes .
-  - short long distance and speed
-  - difficulty
-
-## Encounters
-Events with NPCs
-
-###### Waves
-Increase and manipulate amounts / strength
-
-- combat types
-- obrona manewrowa
-- raidy
-
-# Combat
-non combat - combat loop
-fighhting games are rock paper scisors (advanced with reading opponents pre anims to read next move )   
-
-Melee > projectiles > hitscan
-Charge > stay back
-
-szybkosc projectaili - wpływa na dystancs w ktorym jest walka. !
-
-
-
-## Combat loop
-pasing / important elements
-- doom dropp all what slow down actions (like aming)
-peak priorities
-how much weapons / how get new and ammo ...
-upgread trees
-pase - of new tools and mechanics  2.
-
-
-## AI
-
-[YT rainworld 2d ai](https://youtu.be/hOsYTzd0yeA) -
-
-### .
-- pathfinding
-- behaviur trees - selector node / sequence node (queque)
-
-
-## Mele  
-
-https://threadreaderapp.com/thread/1358654321303277568.html
-
-
-### Timed
-not instant. 3 phases
-1. anticipation - speed  
-2. contact
-3. recovery
-
-tacticly distinct !!!!!!!!!!!!!!!!!!!!!!!!!! - could be subtle -
-Advantages / Disadvantage - (heavy damage slow)
-
-- fast /slow  -  light 14 frames - heavy 28 frames and u are vonurable beform hit
-- wide/ range
-- push away/ knock down /air
-- work on distance
-- stunt  - watch for stunt lock (get enemy in loop )
-- culdown to not spawning
-- player vornuable after use
-- required sth
-- animation canceling. (no in darksouls)  carfeul and commiting
-- range distance/snaping  (depend how sticky ) in batman lot of snaping (and in other flow quick )- not in dark souls
-- distnace - tip of blade more crit than full close.
-- charge
-
-combos and controls.
-- seq of keys or gesture
-- chain of same keys in rythm
-
-parry / counter - block exackly when u block in same time of attack  .
-  - efortless vs
-  - only in slmall time slot - can damage if not done in time
-
-
-tactic:
-- piking targts - kill the hiller
-
-
-## Shooting  
-
-#### Bullets
-
-|     |             |          |     |
-| --- | ----------- | -------- | --- |
-|     | Projectiles | stayback |     |
-|     | Hit scan    | charging |     |
-
-Projectiles are predictable
-
-#### Recoil     
-
-#### Reloads
-
-
-fast assault rifle   
-shotgun at close   
-rocket launch - deadly but risky   
-
-### Aiming
-
-auto aim   
-
-https://twitter.com/Fading_Shadow_/status/1540095904643895296
-- The Accuracy Cone (= Error Angle) defines an area where your bullet can land. The placement of your bullet within this area is entirely random.
-- The Aim Assist Cone defines an area around your reticle where the game will look for enemy targets. Once an enemy enters this area (or you move your reticle close to them) Aim Assist will kick in. What Aim Assist does is it snaps your accuracy cone to a target. [cont]...] What's important about this is that the Aim Assist is factored in first which means that the randomness introduced by the Accuracy Cone will not be corrected for by Aim Assist.
-So TLDR: Accuracy doesn't care what's in front of you, it's purely RNG
-
-First on that list is the in-air accuracy penalty. ⏬
-Fading Shadow
-
-Each archetype of weapon has an intrinsic penalty to accuracy that is activated as soon as your boots leave the ground.
-This penalty cuts the remaining cone you have in half again leaving you with 1/4 of the original size of your Aim Assist cone.
-
-
-
-### Types 
-
-
- SMG - Spora szybkostrzelność , pojemny magazynek , niewielki zasięg że mogę się z nimi dość sprawnie poruszać i przez mniejszy DMG per Pocik ale zwiększoną szybkostrzelność powinienem raczej pakować we wroga długie serie ( Spray and pray Jako broń o małym zasięgu ( wydaje mi się mająca pełnić role SMG ) powinna mieć w miarę skuteczny hipfire
- snip - 
- shotg - 
- pistol - 
 
 # Balance
 
@@ -543,3 +367,10 @@ logic
 zrecznosciowy ./ 
 arcade
 time 
+
+
+
+
+
+
+=-======

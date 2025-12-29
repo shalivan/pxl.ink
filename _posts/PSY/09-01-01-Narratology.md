@@ -499,7 +499,7 @@ Dynamic (gradient)
 - **Yin Yang** - Not static but dynamic opposites. relative - 2 sides of same thing growth & decline, cycle. The dots represent the seed of yin within yang and the seed of yang within yin; the idea that neither can exist without the other.
 - **Dao** - way between - live simple
 
-### Dualities
+### Dualities / Polarities / Dichotomies / Counterparts
 
 | Yin | Yang |
 |---|---|
@@ -514,7 +514,14 @@ Dynamic (gradient)
 | Connected to whole | Individualized Self
 | Completeness | Perfection (with exclusion)
 | Mother Nature | Father Society Culture
-
+nature vs nurture
+emotions vs logic
+Free Will vs. Determinism
+Absolutism vs. Relativism
+Conscious vs. Unconscious
+Individualism vs. Collectivism
+Apollonian vs. Dionysian: - chaos vs 
+Form vs. Content
 
 |.| |
 |---|---|

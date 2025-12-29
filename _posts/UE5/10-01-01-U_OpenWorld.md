@@ -1,0 +1,172 @@
+---
+title: U World
+description: RAW
+categories:
+  - PXL
+tags:
+  - Unreal
+  - Rendering
+  - Tech
+  - Art
+  - RealTime
+  - GameDev
+permalink: /u_world/
+aliases:
+  - uworld
+---
+> Obsidian: [[12-01-01-LevelDesign]] [[10-01-01-U_PCG]] 
+
+
+
+
+# World Partition
+
+
+## World Settings
+
+World partition will turn on: OneActorPerFile, Data Layers, Level instancing, Hlods
+
+`World Partition Setup` >  `[x] Enable Straming`
+will create default HLOD  But use new **Runtime Hash with 3D Grid**
+- (but you can change in actor detail> include in hlod )
+
+`is spatialy loaded` will override hlod layers 
+- (but you can change in actor detail> streaming section )
+
+https://youtu.be/WrLFOoicBh4?t=128   << TECHNIKALIA OGLADN AC
+https://youtu.be/XngmN2Evjho
+
+## Landscape 
+Virtual texture
+- in `Landscape` add slot 
+- in `RuntimeVirtualTextur Volume` > 
+
+
+
+## Landscape
+
+
+Cells are streamed 
+- **Cell size**  - można zmienić później determin **gird size** to stream - default is 25600 <<< 
+- 
+can prev grid in world details
+for larfge worlds vomponent resolution is bigger 511x511 to reduce draw calls 
+
+Cell loading range 
+- Grid size - 
+- World partition  + HLOD (bake geo for background)
+- Level Instances
+
+# Hlods
+
+In>
+
+
+
+https://www.youtube.com/watch?v=oaon_1huRoI - from comandlet  (or increase page file)
+
+### Heightfields 
+
+| verts (res) | Quads / section | SUBSections | Component size | Total Landscape Components |
+| ---- | ---- | ---- | ---- | ---- |
+| 32767 |  |  | max res without tiles  |  |
+| 8129 x 8129 | 127 | 4 | 254 | 1024 (32x32) |
+| 4033 x 4033 | 63 | 4  | 126 | 1024 (32x32) |
+| 2017 x 2017 | 63 | 4  | 126 | 256 (16x16) |
+| 1009 x 1009 | 63 | 4  | 126 | 64 (8x8) |
+| 1009 x 1009 | 63 | 1 | 63 | 256 (16x16) |
+| 505 x 505 | 63 | 4  | 126 | 16 (4x4) |
+| 505 x 505 | 63 | 1 | 63 | 64 (8x8) |
+| 253 x 253 | 63 | 4 | 126 | 4 (2x2) |
+| 253 x 253 | 63 | 1 | 63 | 16 (4x4) |
+| 127 x 127 | 63 | 4 | 126 | 1 |
+| 127 x 127 | 63 | 1 | 63 | 4 (2x2) |
+
+
+#### Export 
+Only loaded 
+511 / 1021 < includ vert edges 
+export on streaming proxies 
+
+## Calculating Heightmap Z Scale
+
+ height range is a total of 512 units
+ -256 cm and 255.992, stored with 16-bit precision  then multiplied by the Z scale value that you input when you import the heightmap data.
+
+512 units * 40 scale = 20480
+20480 cm  * 0.001953125 = 40 scale 
+204,8 m * 0.1953125 = 40 scale 
+
+512 units * 50 scale = 25600
+
+
+Landmass: 
+https://youtu.be/GwJiN8LLnQI?t=1230
+
+# Virtual texture & displacement 
+
+1. create rtv x2. 
+	- change one texture to height 
+2. create RVT volume actor, 
+	- bounds align actor, probe landscape  and setbounds 
+3.  select landscape and add 3 draw in virtual tex slots. 
+
+
+Displacement 
+1. `\Config\DefaultEngine.ini`
+	- r.Nanite.AllowTessellation=1
+	- r.Nanite.Tessellation=1
+2. Enable in material 
+3.  in editor console 
+	- r.Nanite.AllowTessellation 1
+	- r.Nanite.Tessellation 1
+5. Enable Nanite in landscape  & rebuild data 
+
+
+
+
+# Water 
+
+Create water 
+- water manager 
+- water body ocean >> tell water brush 
+- water brush > passing h map info about changes to water mesh 
+- water mesh > mesh surface itself 
+- water bodies > r.Water_WaterMEsh.ShowTileBounds 1
+-  make a hole in surface: https://youtu.be/d5Ft7UaYayM?t=1667
+
+
+
+# HLOD
+[Regen HLOD](https://youtu.be/ZxJ5DG8Ytog?t=1037)
+
+
+----
+World map sizesz 
+Apex - 3.6 
+Fortnite (ch1) - ~6.7km^2  
+GTA III - 8km^2 
+L.A Noire ~21km^2
+The Elder Scrolls V: Skyrim   ~37km^2  
+GHTA SA - 38 
+PUBG - 64 
+RDR2 - 75 
+GTA 5 80 
+
+
+
+
+
+
+# Fluid Flux 
+
+### Create enviro
+BP_FluxSimulationDomain 
+BP_FluxModifierSourceActor
+BP_FluxSurface_Water 
+
+#### Create staic mesh 
+- select surface 
+- Procedural mesh editor [x]
+2. component should apear: surfaceProceduralMesh  > GENERATE MESH  (pivot same as in sim)
+3. 

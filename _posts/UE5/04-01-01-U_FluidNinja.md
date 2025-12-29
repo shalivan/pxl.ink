@@ -18,7 +18,21 @@ aliases:
 ---
 > Obsidian: [[16-01-01-VFX|VFX]] [[04-01-01-U_Niagara|Niagara]]
 
-# Project Setup
+
+ 
+ 
+ 
+
+
+V2
+
+
+
+
+
+___________________________________________________________________
+# OLD
+## Project Setup
 
 https://drive.google.com/file/d/1I4dglPjeXLcNkSGxGok8sQCy59qgYcF9/edit
 
